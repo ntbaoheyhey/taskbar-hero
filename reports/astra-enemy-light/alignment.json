@@ -1,0 +1,184 @@
+{
+  "button-guard": {
+    "texture": "apps/web/public/units/button-guard/rig-depth.half.webp",
+    "source": "apps/web/public/units/button-guard/rig-depth.webp",
+    "colourSize": [
+      1024,
+      512
+    ],
+    "candidateSize": [
+      2048,
+      1024
+    ],
+    "maskIoU": 0.9998,
+    "chromaticOpaque": 0.995
+  },
+  "sock-skipper": {
+    "texture": "apps/web/public/units/sock-skipper/rig-depth.half.webp",
+    "source": "apps/web/public/units/sock-skipper/rig-depth.webp",
+    "colourSize": [
+      1024,
+      512
+    ],
+    "candidateSize": [
+      2048,
+      1024
+    ],
+    "maskIoU": 0.9994,
+    "chromaticOpaque": 0.9954
+  },
+  "spool-ram": {
+    "texture": "apps/web/public/units/spool-ram/rig-depth.half.avif",
+    "source": "apps/web/public/units/spool-ram/rig-depth.webp",
+    "colourSize": [
+      1024,
+      512
+    ],
+    "candidateSize": [
+      2048,
+      1024
+    ],
+    "maskIoU": 0.9998,
+    "chromaticOpaque": 0.9922
+  },
+  "needle-moth": {
+    "texture": "apps/web/public/units/needle-moth/poses/K0.avif",
+    "source": "apps/web/public/units/needle-moth/rig-depth.webp",
+    "colourSize": [
+      1152,
+      1152
+    ],
+    "candidateSize": [
+      2048,
+      1024
+    ],
+    "maskIoU": 0.0001,
+    "chromaticOpaque": 0.9917
+  },
+  "teacup-healer": {
+    "texture": "apps/web/public/units/teacup-healer/poses/K0.avif",
+    "source": "apps/web/public/units/teacup-healer/rig-depth.webp",
+    "colourSize": [
+      1152,
+      1152
+    ],
+    "candidateSize": [
+      2048,
+      1024
+    ],
+    "maskIoU": 0.0305,
+    "chromaticOpaque": 0.998
+  },
+  "kettle-knight": {
+    "texture": "apps/web/public/units/kettle-knight/rig-depth.half.avif",
+    "source": "apps/web/public/units/kettle-knight/rig-depth.webp",
+    "colourSize": [
+      1024,
+      1024
+    ],
+    "candidateSize": [
+      2048,
+      2048
+    ],
+    "maskIoU": 0.9998,
+    "chromaticOpaque": 0.994
+  },
+  "yarn-giant": {
+    "texture": "apps/web/public/units/yarn-giant/poses/K0.avif",
+    "source": "apps/web/public/units/yarn-giant/rig-depth.webp",
+    "colourSize": [
+      1152,
+      1152
+    ],
+    "candidateSize": [
+      2048,
+      2048
+    ],
+    "maskIoU": 0.0464,
+    "chromaticOpaque": 0.9988
+  },
+  "binding-thread": {
+    "texture": "apps/web/public/units/binding-thread/poses/K0.avif",
+    "source": "apps/web/public/units/binding-thread/rig-depth.webp",
+    "colourSize": [
+      896,
+      896
+    ],
+    "candidateSize": [
+      2048,
+      1024
+    ],
+    "maskIoU": 0.0006,
+    "chromaticOpaque": 0.9953
+  },
+  "practice-cushion": {
+    "texture": "apps/web/public/units/practice-cushion/rig-depth.half.webp",
+    "source": "apps/web/public/units/practice-cushion/rig-depth.webp",
+    "colourSize": [
+      1024,
+      512
+    ],
+    "candidateSize": [
+      2048,
+      1024
+    ],
+    "maskIoU": 0.9995,
+    "chromaticOpaque": 0.9965
+  },
+  "pollen-scout": {
+    "texture": "apps/web/public/units/pollen-scout/rig-depth.half.avif",
+    "source": "apps/web/public/units/pollen-scout/rig-depth.webp",
+    "colourSize": [
+      1024,
+      512
+    ],
+    "candidateSize": [
+      2048,
+      1024
+    ],
+    "maskIoU": 0.9995,
+    "chromaticOpaque": 0.9974
+  },
+  "rain-spool": {
+    "texture": "apps/web/public/units/rain-spool/rig-depth.half.webp",
+    "source": "apps/web/public/units/rain-spool/rig-depth.webp",
+    "colourSize": [
+      1024,
+      512
+    ],
+    "candidateSize": [
+      2048,
+      1024
+    ],
+    "maskIoU": 0.9992,
+    "chromaticOpaque": 0.9964
+  },
+  "crumb-sentinel": {
+    "texture": "apps/web/public/units/crumb-sentinel/rig-depth.half.avif",
+    "source": "apps/web/public/units/crumb-sentinel/rig-depth.webp",
+    "colourSize": [
+      1024,
+      512
+    ],
+    "candidateSize": [
+      2048,
+      1024
+    ],
+    "maskIoU": 0.9997,
+    "chromaticOpaque": 0.9988
+  },
+  "pantry-crown": {
+    "texture": "apps/web/public/units/pantry-crown/rig-depth.half.webp",
+    "source": "apps/web/public/units/pantry-crown/rig-depth.webp",
+    "colourSize": [
+      1024,
+      1024
+    ],
+    "candidateSize": [
+      2048,
+      2048
+    ],
+    "maskIoU": 0.9994,
+    "chromaticOpaque": 0.9967
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "phase": "C",
+  "wins": 12,
+  "total": 12,
+  "rows": [
+    {
+      "id": "button-guard",
+      "after": "R",
+      "side": "R",
+      "reason": "The helmet and gauntlet have clearer far-side edges.",
+      "win": true
+    },
+    {
+      "id": "sock-skipper",
+      "after": "L",
+      "side": "L",
+      "reason": "The lower body rolls into cooler shade over a darker footprint.",
+      "win": true
+    },
+    {
+      "id": "spool-ram",
+      "after": "R",
+      "side": "R",
+      "reason": "The short cast and shadowed hind leg give the ram weight.",
+      "win": true
+    },
+    {
+      "id": "needle-moth",
+      "after": "R",
+      "side": "R",
+      "reason": "The far wing is cooler than the near needle and the lower abdomen has more depth.",
+      "win": true
+    },
+    {
+      "id": "teacup-healer",
+      "after": "R",
+      "side": "R",
+      "reason": "The saucer and handle keep distinct cool and warm edges.",
+      "win": true
+    },
+    {
+      "id": "kettle-knight",
+      "after": "R",
+      "side": "R",
+      "reason": "The kettle's back arm turns into shade while the spout takes the key.",
+      "win": true
+    },
+    {
+      "id": "yarn-giant-phase2",
+      "after": "R",
+      "side": "R",
+      "reason": "A hot shoulder contrasts with the deeply shaded boots and far fist.",
+      "win": true
+    },
+    {
+      "id": "binding-thread",
+      "after": "L",
+      "side": "L",
+      "reason": "The right-hand twist and lower rim have a stronger turning shape.",
+      "win": true
+    },
+    {
+      "id": "pollen-scout",
+      "after": "L",
+      "side": "L",
+      "reason": "The cool wing and abdomen retain separate silhouettes.",
+      "win": true
+    },
+    {
+      "id": "rain-spool",
+      "after": "R",
+      "side": "R",
+      "reason": "There is a blue return on the cloth and a stronger foot contact.",
+      "win": true
+    },
+    {
+      "id": "crumb-sentinel",
+      "after": "L",
+      "side": "L",
+      "reason": "The shield sits behind the torso, with a rounded top edge.",
+      "win": true
+    },
+    {
+      "id": "pantry-crown-phase2",
+      "after": "L",
+      "side": "L",
+      "reason": "The lower corner and gauntlet sit farther back under the crown.",
+      "win": true
+    }
+  ]
+}

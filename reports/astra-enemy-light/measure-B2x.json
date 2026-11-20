@@ -1,0 +1,146 @@
+{
+  "binding-thread": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 787161,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 48727,
+    "bodyChanged": 48711,
+    "luminanceChangePct": 2.968
+  },
+  "button-guard": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 787161,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 117555,
+    "bodyChanged": 116024,
+    "luminanceChangePct": 2.723
+  },
+  "crumb-sentinel": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 787161,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 146466,
+    "bodyChanged": 144757,
+    "luminanceChangePct": 5.859
+  },
+  "kettle-knight": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 787161,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 132956,
+    "bodyChanged": 130230,
+    "luminanceChangePct": 5.55
+  },
+  "needle-moth": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 787161,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 67553,
+    "bodyChanged": 67219,
+    "luminanceChangePct": 1.517
+  },
+  "pantry-crown": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 787161,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 287240,
+    "bodyChanged": 278847,
+    "luminanceChangePct": 8.536
+  },
+  "pantry-crown-phase2": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 786907,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 287211,
+    "bodyChanged": 245556,
+    "luminanceChangePct": 7.89
+  },
+  "pollen-scout": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 787161,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 111175,
+    "bodyChanged": 110973,
+    "luminanceChangePct": 6.581
+  },
+  "practice-cushion": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 787161,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 155370,
+    "bodyChanged": 154673,
+    "luminanceChangePct": 6.598
+  },
+  "rain-spool": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 787161,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 417030,
+    "bodyChanged": 394435,
+    "luminanceChangePct": 5.494
+  },
+  "rain-spool-phase2": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 786907,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 410558,
+    "bodyChanged": 326317,
+    "luminanceChangePct": 5.128
+  },
+  "sock-skipper": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 787161,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 78127,
+    "bodyChanged": 77367,
+    "luminanceChangePct": 5.803
+  },
+  "spool-ram": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 787161,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 196656,
+    "bodyChanged": 193612,
+    "luminanceChangePct": 11.541
+  },
+  "teacup-healer": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 787161,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 86400,
+    "bodyChanged": 86232,
+    "luminanceChangePct": 2.417
+  },
+  "yarn-giant": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 787161,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 373289,
+    "bodyChanged": 372747,
+    "luminanceChangePct": 0.719
+  },
+  "yarn-giant-phase2": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 786907,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 382382,
+    "bodyChanged": 382367,
+    "luminanceChangePct": 2.013
+  }
+}

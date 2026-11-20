@@ -1,0 +1,162 @@
+{
+  "binding-thread": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 197480,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 11683,
+    "bodyChanged": 11679,
+    "luminanceChangePct": 2.769,
+    "offVsPristine": 0
+  },
+  "button-guard": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 197480,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 28834,
+    "bodyChanged": 28539,
+    "luminanceChangePct": 2.543,
+    "offVsPristine": 0
+  },
+  "crumb-sentinel": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 197480,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 35972,
+    "bodyChanged": 35622,
+    "luminanceChangePct": 5.966,
+    "offVsPristine": 0
+  },
+  "kettle-knight": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 197480,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 32359,
+    "bodyChanged": 31757,
+    "luminanceChangePct": 5.434,
+    "offVsPristine": 0
+  },
+  "needle-moth": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 197480,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 16482,
+    "bodyChanged": 16394,
+    "luminanceChangePct": 1.427,
+    "offVsPristine": 0
+  },
+  "pantry-crown": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 197708,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 70871,
+    "bodyChanged": 69126,
+    "luminanceChangePct": 8.48,
+    "offVsPristine": 0
+  },
+  "pantry-crown-phase2": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 197326,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 70860,
+    "bodyChanged": 61142,
+    "luminanceChangePct": 9.032,
+    "offVsPristine": 0
+  },
+  "pollen-scout": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 197480,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 27091,
+    "bodyChanged": 27059,
+    "luminanceChangePct": 6.066,
+    "offVsPristine": 0
+  },
+  "practice-cushion": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 197480,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 38076,
+    "bodyChanged": 37931,
+    "luminanceChangePct": 6.642,
+    "offVsPristine": 0
+  },
+  "rain-spool": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 197708,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 103203,
+    "bodyChanged": 97867,
+    "luminanceChangePct": 5.226,
+    "offVsPristine": 0
+  },
+  "rain-spool-phase2": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 197326,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 101562,
+    "bodyChanged": 81234,
+    "luminanceChangePct": 5.509,
+    "offVsPristine": 0
+  },
+  "sock-skipper": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 197480,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 19057,
+    "bodyChanged": 18946,
+    "luminanceChangePct": 5.861,
+    "offVsPristine": 0
+  },
+  "spool-ram": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 197480,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 48527,
+    "bodyChanged": 47821,
+    "luminanceChangePct": 11.334,
+    "offVsPristine": 0
+  },
+  "teacup-healer": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 197480,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 20918,
+    "bodyChanged": 20882,
+    "luminanceChangePct": 2.553,
+    "offVsPristine": 0
+  },
+  "yarn-giant": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 197708,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 92958,
+    "bodyChanged": 92819,
+    "luminanceChangePct": 0.498,
+    "offVsPristine": 0
+  },
+  "yarn-giant-phase2": {
+    "changedCatBoxPixels": 0,
+    "catBoxPixels": 197326,
+    "outsideAddedOver2": 0,
+    "outsideBodyPassOver2": 0,
+    "bodyPixels": 95237,
+    "bodyChanged": 95234,
+    "luminanceChangePct": 1.201,
+    "offVsPristine": 0
+  }
+}

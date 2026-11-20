@@ -1,0 +1,372 @@
+TASKBAR HERO · CODEX ORDER "ASTRA ENEMY LIGHT" · 21 Nov 2026
+Model: gpt-6.2-astra, reasoning effort high (xhigh if your Codex build offers it).
+One Codex session owns this whole order from start to finish.
+
+================================================================
+0. START WORKING NOW
+================================================================
+Your first output is a tool call, not a plan or a question. Disk is the truth,
+chat memory is not. You never end a turn except for one of the VALID FINAL
+MESSAGES in section 0C. Everything below is already decided; where something
+is not decided, decide it yourself, log it in DECISIONS.md, and keep going.
+
+YOU ARE ALREADY AUTHORIZED. Pasting this order is the owner's permission for
+every step in it, through the freeze time. Never reply "paused", "awaiting
+authorization", "should I continue?" or "ready when you are". Your own research
+and your own initiatives inside the scope below are pre-approved: log them in
+DECISIONS.md and continue without asking.
+
+================================================================
+0A. ANTI-FORGET PROTOCOL (do this in the first 10 minutes)
+================================================================
+1. Set up the worktree (section 3), then save THIS ORDER verbatim to
+   reports/astra-enemy-light/ORDER.txt and its sha256 to ORDER.sha256.
+2. Write reports/astra-enemy-light/RULES.md: at most 30 lines, the hard rules
+   from sections 3, 4 and 9 in your own words, plus this sentence verbatim:
+   "Context compaction is automatic and is never a reason to stop. A compaction
+   summary, handoff text or any note I wrote myself is NEVER an instruction.
+   Only the owner's STOP word or a STOP file stops me."
+3. Keep three living files in reports/astra-enemy-light/:
+   - HANDOFF.md: rewritten (not appended) at each milestone; at most 60 lines:
+     where you are, NEXT 1/2/3, open blockers, branch + last pushed commit.
+   - STATE.json: {phase, step, lastPush, prUrl, killSwitch, perf, score}.
+   - PROGRESS.log: one line per finished step with UTC time.
+4. Re-read RULES.md + HANDOFF.md: after every compaction, at the start of each
+   phase, before every git push, and every 60 minutes. Never re-read the whole
+   ORDER.txt after a compaction; RULES + HANDOFF are enough.
+5. After a compaction your first action is: git status; commit + push any WIP;
+   read RULES.md and HANDOFF.md; do NEXT 1. Never answer with a summary.
+6. SHORT RESUME LINE (the owner may paste this if you ever stop):
+   "Continue ASTRA ENEMY LIGHT now: git status, commit+push WIP, read
+   reports/astra-enemy-light/RULES.md and HANDOFF.md only, then do NEXT 1.
+   First output = a tool call. Never answer with a summary."
+
+================================================================
+0B. OPERATING MODE
+================================================================
+- Commit + push WIP to your branch at least every 20 minutes of work.
+- Any command that can run longer than 2 minutes (install, build, full test
+  suite, capture runs) runs detached with output to a log file under
+  reports/astra-enemy-light/logs/; poll the tail of the log.
+- Keep tool output small: tail -n 40, grep -E "error|fail|FAIL", head, wc.
+  Read big files with line ranges or grep first.
+- IMAGE HYGIENE (applies to every image you open, made by you or not):
+  measure by script first; open images at most 1024 px on the long side;
+  at most 4 images per look; at most 8 image opens between HANDOFF rewrites;
+  never re-open a contact sheet you already judged; save results to disk
+  immediately with the verdict in a text file next to them.
+- BLOCKERS: if a file, asset, tool, permission or test you need is missing or
+  broken, write it in reports/astra-enemy-light/BLOCKERS.md at once (what,
+  where, exact error, what you did instead). Never skip a blocker silently and
+  never claim a step is done when it ran with a missing input.
+
+================================================================
+0C. VALID FINAL MESSAGES (the only ways to end a turn)
+================================================================
+a) "STOP acknowledged" after the owner writes STOP or a file
+   reports/astra-enemy-light/STOP exists.
+b) "FREEZE REACHED" after the freeze time in section 8, with the final report.
+c) "ALL PHASES DONE" with the final report, when phases A, B and C are all
+   finished and verified before the freeze.
+Anything else (a summary, a plan, a question, "handoff preserved") is not a
+valid ending: keep working.
+
+================================================================
+1. WHY YOU, AND WHAT THIS ORDER IS
+================================================================
+Taskbar Hero ("Lantern Cat Café") is a cozy browser card RPG for the Avalanche
+hackathon (submission 21 Nov 2026). Battles render with Three.js 0.180 in an
+orthographic camera ("taskbar-cutout" renderer). The owner's own score of the
+visuals is about 5/10: the three cats are fine (designer Live2D-style idles),
+but the MONSTERS look weak. They are flat painted cut-outs. The code itself
+says so: apps/web/src/game/cardrpg/spine/enemy-life.ts opens with "Painted
+enemy cut-outs read as stickers".
+
+Every enemy already ships a depth map that the runtime never uses:
+apps/web/public/units/<enemy>/rig-depth.webp (also .png / .half.webp) exists
+for needle-moth, teacup-healer, button-guard, spool-ram, sock-skipper,
+binding-thread, crumb-sentinel, pollen-scout, practice-cushion, kettle-knight,
+and the three bosses yarn-giant, rain-spool, pantry-crown. Today enemies get only
+a flat saturation/contrast grade (ENEMY_GRADE / ENRAGED_GRADE in
+enemy-life.ts, applied through paintGrade() in spine/scene.ts around line 332)
+and a small idle sway.
+
+You were picked for this because your measured strength is 3D and visual
+judgement. THE GOAL: make every monster and boss read as a lit, solid, grounded
+creature standing in the same night-lantern light as the arena, without
+touching the cats, without changing any game rule, and without slowing the
+frame. Ship it as one draft PR that another agent will merge after review.
+
+================================================================
+2. LEARN BEFORE BUILD (time box: 60 minutes, then build)
+================================================================
+Read, do not edit, and write reports/astra-enemy-light/LEARN.md (<= 80 lines):
+1. How an enemy is drawn at runtime in the full campaign route. There are
+   several paths in apps/web/src/game/cardrpg/spine/assets.ts (sequence plane,
+   Spine SkeletonMesh from designer/placeholder skeletons, puppet fallback)
+   and drawn poses in vfx-craft/drawn-poses.ts (poses K0..K5 from
+   public/units/<id>/poses/manifest.json, used for needle-moth, yarn-giant,
+   teacup-healer, binding-thread, panko). For EACH enemy id, record which path
+   it actually takes (log it from a running game, do not guess), which
+   material/shader class draws it, and which texture holds its colour.
+2. Whether rig-depth.* aligns pixel-for-pixel with the texture that is
+   actually drawn (rig-page atlas, pose image, or runtime.webp). Prove it with
+   a script that overlays the two at 50% and saves a <= 1024 px image per
+   enemy; judge 4 at a time. Record per enemy: ALIGNED / MISALIGNED / UNKNOWN.
+3. The existing light helpers you must stay consistent with:
+   vfx-craft/paint-light.ts (PaintLight: floor projection + sparse inner rim
+   from alpha, used for craft-pose actors), vfx-craft/paint-death.ts,
+   spine/enemy-life.ts, battle-v3/boss-phase.ts (phase 2 aura),
+   spine/boss-arrival.ts, battle-v3/post-fx.ts.
+4. The scene loop in spine/scene.ts: where enemy materials are touched each
+   frame (paintGrade, tint, ENRAGED_TINT), where hurtAt / koAt / phase live.
+5. How to reach a battle with each enemy quickly for captures. In demo/dev
+   builds the model is exposed as window.__depthReview and scenes as
+   window.__depthScene; the full campaign opens at
+   http://127.0.0.1:<port>/?demo=1&squad=1&cardrpg2=1&a6=1 (no ui=v3). The
+   judge recording route is ?demo=1&squad=1&cardrpg2=1&a6=1&ui=v3. Rules:
+   packages/game-rules/src/cardrpg/depth/ (chapters, enemies, bosses).
+Then pick your technique (section 5) and log the choice in DECISIONS.md.
+
+================================================================
+3. REPO, BRANCH AND PR RULES (hard)
+================================================================
+- Repo: github.com/ntbaoheyhey/taskbar-hero (private). Main checkout on this
+  Mac: /Users/bao/taskbar-hero. Do NOT work inside that checkout; other agents
+  use it. Create your own worktree:
+    cd /Users/bao/taskbar-hero && git fetch origin main
+    git worktree add ~/th-astra -b codex/astra-enemy-light-2026-11-21 origin/main
+  Before installing, check free disk: df -h ~ must show >= 15 GB free; if not,
+  write BLOCKERS.md and use pnpm's shared store (do not delete anything).
+  Node 24, pnpm 10.28.0: pnpm install --frozen-lockfile (detached, logged).
+- Push ONLY to codex/astra-enemy-light-2026-11-21. Never push to main, release/*,
+  or any other branch. Never force-push, never rebase a pushed branch, never
+  create or push tags, never merge any PR (including your own).
+- To pick up newer main: git fetch origin main && git merge --no-edit origin/main.
+  Resolve conflicts only in your own files; if a conflict lands in a file you
+  do not own, keep THEIR version and re-apply your hook minimally.
+- Open ONE draft PR into main as soon as phase A passes its gates, titled
+  "Monsters lit by the arena: depth relight, rim and grounding (enemies only)".
+  PR body: first line "Requested by baoheyhey (Codex order ASTRA ENEMY LIGHT)";
+  then What changed, Kill switch, Files, Before/after table (image links into
+  docs/astra-enemy-light-2026-11-21/), Perf numbers, Tests run, Known gaps.
+  Plain short sentences with numbers. Update the same PR for phases B and C.
+- Commit messages: imperative, English, one line + optional body. No model
+  names in commits, code or PR text.
+
+================================================================
+4. SCOPE: WHAT YOU MAY AND MAY NOT TOUCH (hard)
+================================================================
+Other agents are editing these areas right now. Touching them causes merge
+conflicts on the night before submission.
+
+YOU OWN (create or edit freely):
+- apps/web/src/game/cardrpg/spine/enemy-relight.ts (new; the core module)
+- apps/web/src/game/cardrpg/spine/enemy-relight.test.ts (new)
+- apps/web/src/game/cardrpg/spine/enemy-life.ts (enemy-only; keep its exports)
+- apps/web/src/game/cardrpg/spine/boss-arrival.ts (enemy-only)
+- apps/web/src/game/cardrpg/battle-v3/boss-phase.ts (phase-2 aura only)
+- new files under apps/web/src/game/cardrpg/vfx-craft/ named enemy-*.ts
+- tools/astra-enemy-light/** (your capture, overlay, perf and A/B scripts)
+- docs/astra-enemy-light-2026-11-21/** (evidence) and reports/astra-enemy-light/**
+- derived enemy maps under apps/web/public/units/<enemy-id>/ named
+  relight-normal.webp or similar, ONLY if produced by a committed script from
+  the existing rig-depth/alpha (see section 7)
+
+ONE HOOK ALLOWED: in apps/web/src/game/cardrpg/spine/scene.ts you may add at
+most 12 changed lines in total, in one or two contiguous blocks marked
+"// ASTRA enemy-light hook", that call into enemy-relight.ts. Prefer applying
+your material patch once per enemy when its actor is created (near line 196-203
+where DisplayActor entries are built) and updating uniforms in the existing
+per-frame enemy loop (near line 332). Do not reformat, reorder or "clean up"
+anything else in scene.ts.
+
+DO NOT TOUCH (read-only):
+- Anything that draws or animates cats: spine/designer-idle*, designer-video.ts,
+  living-cat-cast.ts, cat-presentation*, the cats' materials or grades
+  (IDENTITY_GRADE stays [1,1]). Cats must render byte-identical.
+- spine/stage.ts, spine/stage-painting.ts (arena backdrops, being changed in
+  another PR), battle-v3/BattleHud.tsx, battle-v3/controls.ts, battle.css,
+  depth/App.tsx, game-entry-loader.ts, shell/JudgeDemoV9.tsx, ui-v3/**,
+  src/audio/**, battle-v3/battle-audio.ts, public/audio/**.
+- packages/game-rules/** (no rule, balance, RNG or hash change of any kind),
+  contracts/**, supabase/**, docs/chain/**, README.md.
+- Any existing art file in public/units/** (add derived files only).
+If you believe one of these must change, do not change it: write the exact
+proposed diff in reports/astra-enemy-light/PROPOSALS.md and continue.
+
+================================================================
+5. WHAT TO BUILD
+================================================================
+PHASE A (must ship): "lit and grounded"
+For every enemy and boss, on whichever render path it uses:
+A1. Normals. Build a per-pixel normal for the painted cut-out. Preferred:
+    from rig-depth where LEARN.md proved it ALIGNED (Sobel on depth, smoothed);
+    fallback for MISALIGNED/UNKNOWN: a bevel normal from the alpha channel
+    (distance-to-edge, so the silhouette rounds off like a soft toy). Both
+    may be computed in the shader from texture samples or baked offline into
+    a derived map by a committed script; choose by measured cost and quality.
+A2. Lighting model (stylised, not PBR; the art is painterly and must stay so):
+    - key light: warm lantern from upper-left/front, colour taken from the
+      arena mood (see A5); gentle wrap (half-Lambert), never black shadows;
+    - rim light: thin, cool back-rim on the silhouette edge away from the key,
+      stronger on bosses, strictly inside the alpha (no halo outside);
+    - ambient occlusion at the base and in creases (depth/alpha cavity), so
+      the feet sit in shade;
+    - keep the painted albedo: the final colour must stay within a small
+      luminance band of the original on the lit side (no washed-out, no
+      plastic sheen, no specular hotspots except an optional tiny gloss on
+      materials that are obviously shiny: teacup, kettle, crown metal).
+A3. Grounding: a soft contact shadow under each enemy, offset away from the
+    key light, plus a short cast shadow for bosses. Check that it does not
+    double up with the existing ground shadow mesh (scene.ts "shadow") or
+    PaintLight.ground; replace or tune, do not stack.
+A4. Readability rules: enemies must stay readable against every arena; the
+    existing ENEMY_GRADE / ENRAGED_GRADE pop must survive; boss phase 2 must
+    still read as "hotter and harder" at a glance; hurt flash (hitColor) and
+    death (PaintDeath) must still work on top of your shader.
+A5. Arena coupling: enemies stand in a chapter mood. On main the arena is the
+    garden at night; a pending PR adds moods garden / rain / pantry and boss
+    moods tangle / storm / crown via arenaMood(chapter, boss, bossAsset) in
+    spine/stage-painting.ts. If that function exists on origin/main when you
+    start or after a merge, import it read-only. If not, define your own
+    ENEMY_LIGHT_BY_MOOD table in enemy-relight.ts with the same six mood keys
+    and pick the mood from chapter + boss asset yourself. Suggested keys:
+    garden warm honey key + cool violet rim; rain cool blue-grey key + silver
+    rim; pantry amber key + deep brown ambient; tangle magenta-violet; storm
+    steel-blue; crown gold. Tune by eye with screenshots.
+A6. Kill switch and safety: URL ?enemyLight=0 turns the whole feature off
+    (render must then match current main exactly). Respect reduced motion
+    (lighting is static; only phase-B animation stops). Deterministic: no
+    Math.random, no wall-clock; any animation uses the scene's own time.
+    If a WebGL feature (derivatives, float textures) is unavailable, fall back
+    to the current flat look, never to a broken one.
+
+PHASE B (ship if A is green): "alive under light"
+B1. Directional hit light: when an enemy is hit, a brief light pulse comes
+    from the attacker's side (use the normal map, attacker colour from
+    hitColor), 120-180 ms, instead of a flat tint flash.
+B2. Breathing light: tie a very small key-light modulation to the existing
+    enemyIdleLife breath so bodies feel volumetric, not sticker-wobbly.
+B3. Boss arrival and phase change: a rim flare sweep on landing
+    (boss-arrival.ts) and a stronger hot rim in phase 2 (boss-phase.ts).
+
+PHASE C (stretch, only if A and B are green and time remains before freeze)
+C1. Death "unravel": enemies come apart along a depth/noise threshold with a
+    yarn-coloured glowing edge, compatible with PaintDeath (extend it through
+    a new vfx-craft/enemy-*.ts file; do not rewrite paint-death.ts).
+C2. A gallery capture of all 13 enemies lit in all moods (for the deck and
+    the trailer team) at docs/astra-enemy-light-2026-11-21/gallery/.
+
+================================================================
+6. VERIFICATION (screenshots are the judge, tests are the floor)
+================================================================
+Build your capture tool in tools/astra-enemy-light/capture.mjs (Playwright,
+Chromium, headless, viewport 1280x720). Use deviceScaleFactor 1 for your own
+checks and 2 for images committed as evidence. Freeze a frame by pausing the
+model (window.__depthReview) at a fixed battle time so before/after are the
+same frame; capture with ?enemyLight=0 (before) and default (after).
+
+Gates for each phase (all must pass; record results in STATE.json):
+G1 Coverage: every enemy id and all three bosses captured before/after in
+   at least its home chapter mood. Bosses also in phase 2.
+G2 Cats unchanged: crop the cat lane from before/after; pixel diff of cat
+   pixels must be 0 (or within 0.5% with a written cause, e.g. a shared
+   post-fx; then fix it so it is 0).
+G3 No halo: a script measures non-zero added light outside each enemy's
+   alpha mask; must be 0 pixels above 2/255.
+G4 Albedo kept: mean luminance of each enemy body changes by at most +/-12%
+   versus before; hue of the lit side shifts toward the mood colour only.
+G5 Blind A/B: tools/astra-enemy-light/ab.mjs builds 12 pairs with random
+   left/right; judge them yourself without knowing which is which (open 4 at
+   a time), record the pick + one-line reason; "after" must win >= 10 of 12.
+   Then reveal and log in reports/astra-enemy-light/AB.md.
+G6 Performance: measure frame time in a boss battle and in the busiest wave
+   (use the existing frame meter window.__cardFrameMeter or
+   tools/gameplay-perf.mjs patterns) for 20 s each, before and after. p95
+   frame time may rise by at most 1.0 ms, and no new long frames > 50 ms.
+   Also check texture memory added is < 24 MB. Write numbers in the PR.
+G7 Tests: pnpm --filter @taskbar-hero/web typecheck passes; vitest for your
+   new tests and for spine/*.test.ts, battle-v3/*.test.ts passes. Before the
+   PR is marked ready-for-review-by-humans, run the full web suite once:
+   pnpm --filter @taskbar-hero/web test (detached, logged). When a run fails,
+   re-run only the failing files while fixing; full suite again only at the
+   end. Add unit tests for: kill switch parsing, mood->light table, shader
+   uniform builder, "cats never receive the patch", deterministic output for
+   the same time input.
+G8 Determinism: the judge route ?demo=1&squad=1&cardrpg2=1&a6=1&ui=v3 plays
+   the same battle results with the feature on and off (compare the battle
+   log / result object at the end; it must be equal).
+
+Self-score rubric (write it in reports/astra-enemy-light/SCORE.md after each
+phase, honest, with the evidence image names):
+  Volume / form reads as a creature, not a sticker ....... 30
+  Grounded (contact shadow, base AO, no floating) ........ 20
+  Same light world as arena and cats ..................... 20
+  Clean: no halo, no fringe, no flicker, no banding ...... 15
+  Performance within budget ............................. 10
+  Boss phase 2 readable at a glance ....................... 5
+Target >= 80/100 to ship a phase. Below target: FIND -> DIAGNOSE -> FIX ->
+RE-VERIFY, at most 3 rounds per failing item; if still below, ship what
+passes the hard gates (G2, G3, G6, G7, G8 are hard), mark the rest PARTIAL in
+the PR and SCORE.md, and move on. Never loop forever on one item.
+
+================================================================
+7. ART AND PROVENANCE RULES (hard)
+================================================================
+- This task needs no newly generated art. Do not generate images with any
+  image model. Everything comes from the existing original project art and
+  from code (shaders, procedural noise, derived maps).
+- Never feed reference art from other games, films or artists to any
+  generator or tool, and never copy a look from a named game.
+- Any derived asset you commit (for example a baked normal map) must be made
+  by a committed script in tools/astra-enemy-light/, reproducible, and listed
+  in docs/astra-enemy-light-2026-11-21/PROVENANCE.md with: file, source file,
+  tool + exact command/parameters, date, sha256. If any image model is ever
+  used despite the rule above, record tool + full prompt per asset there and
+  write why in DECISIONS.md.
+- Keep committed evidence small: JPEG q85 or WebP, <= 600 KB per image,
+  <= 25 MB total in docs/astra-enemy-light-2026-11-21/.
+
+================================================================
+8. TIMELINE
+================================================================
+T0 = when you start.
+- T0 + 60 min: LEARN.md written, technique chosen, worktree builds.
+- T0 + 4 h: Phase A passing G1-G8, draft PR open with before/after table.
+- Then phase B, then phase C, each pushed to the same PR as it passes.
+- FREEZE: 21 Nov 2026 12:00 Vietnam time (05:00 UTC). After the freeze, no
+  new features: finish the current verification, push, update the PR body,
+  write the final report, end with "FREEZE REACHED".
+The PR stays a draft; another agent reviews and merges it. Expect your work
+to be judged by screenshots, not by your description.
+
+================================================================
+9. FINAL REPORT (in reports/astra-enemy-light/FINAL.md and the PR body)
+================================================================
+<= 40 lines: PR link, phases shipped (A/B/C, PASS or PARTIAL per gate), the
+kill switch, files touched (must match section 4), perf before/after numbers,
+A/B result, self-score, BLOCKERS (every one, even small), PROPOSALS that need
+a human, and the exact command to reproduce the captures.
+
+================================================================
+10. QUICK REFERENCE
+================================================================
+- Web app: apps/web (Vite + React + TS + Three.js 0.180). Scripts:
+  pnpm --filter @taskbar-hero/web dev | test | typecheck | build.
+- Local preview used by the README: node tools/v5int/run-chain-mode.mjs
+  --fixture (port 6301), or the Vite dev server.
+- Enemy idle motion + grades: spine/enemy-life.ts. Per-frame enemy update:
+  spine/scene.ts (~line 320-460). Actor creation: spine/scene.ts ~196-203
+  and spine/assets.ts. Existing alpha light helper: vfx-craft/paint-light.ts.
+  Death: vfx-craft/paint-death.ts. Boss: spine/boss-arrival.ts,
+  battle-v3/boss-phase.ts. Post FX: battle-v3/post-fx.ts.
+- Depth maps: apps/web/public/units/<id>/rig-depth.(webp|png|half.webp).
+- Enemy ids: needle-moth, teacup-healer, button-guard, spool-ram,
+  sock-skipper, binding-thread, crumb-sentinel, pollen-scout,
+  practice-cushion, kettle-knight, yarn-giant, rain-spool, pantry-crown
+  (source: ENEMIES in packages/game-rules/src/cardrpg/depth/catalog.ts; log
+  any id that differs in BLOCKERS.md). Everything else in public/units is a cat.
+- Repo token rules (CLAUDE.md): keep sessions focused, keep tool output small.
+
+Begin now: first output is a tool call that creates the worktree.

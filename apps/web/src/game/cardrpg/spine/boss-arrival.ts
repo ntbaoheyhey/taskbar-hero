@@ -2,6 +2,12 @@ import {neutralPose,type RootPose} from '../battle-v3/motion';
 
 export const BOSS_LANDING_MS=240;
 export const BOSS_ARRIVAL_MS=620;
+
+/** Normalized bottom-to-top rim sweep immediately after the planted frame. */
+export function bossLandingSweep(ageMs:number,reduced:boolean) {
+ const progress=(ageMs-BOSS_LANDING_MS)/260;
+ return !reduced&&progress>=0&&progress<1?progress:-1;
+}
 const smooth=(x:number)=>{const t=Math.max(0,Math.min(1,x));return t*t*(3-2*t);};
 
 /** Presentation age only: no action delay, and no displacement at contact. */

@@ -1,0 +1,14 @@
+2026-11-20T16:53:17Z Set up worktree, archived order and started frozen install.
+2026-11-20T16:55:41Z Installed frozen dependencies and built unmodified campaign.
+2026-11-20T16:59:08Z Verified all 13 live paths and judged 13 overlays. Chose alpha-derived normals.
+2026-11-20T17:07:25Z Verified exact switch-off baseline, zero cat/halo pixels and bounded linear luminance at DPR 1.
+2026-11-20T17:19:52Z Recorded blind picks before reveal, 12 of 12 favored relighting.
+2026-11-20T17:20:12Z Passed phase A gates at DPR 1/2; both 20s paired scenarios had zero frames above 50 ms.
+2026-11-20T17:20:21Z Opened the single draft PR; merged newer main cat motion into the isolated branch.
+2026-11-20T17:39:31Z Verified real attack pulse, landing sweep, reduced-motion samples, A/B picks and both judge replays for B.
+2026-11-20T17:40:31Z Phase B passed all gates, pushed and updated draft. Began C.
+2026-11-20T17:59:12Z Completed 78 mood captures and original-paint death checks. Hourly rules and handoff reread.
+2026-11-20T18:00:13Z Rechecked rules and handoff. Merged dfd48e642 and began final integration verification.
+2026-11-20T18:09:32Z Reproduced all 13 map files byte-for-byte from original alpha.
+2026-11-20T18:31:54Z Verified the repeated order is byte-identical; no second PR. Passed integrated suite 3292/3292 and final performance gates.
+2026-11-20T18:57:06Z Verified remote PR head, evidence SHA-256 and complete diff ownership. HTTP 408 publication retry succeeded.

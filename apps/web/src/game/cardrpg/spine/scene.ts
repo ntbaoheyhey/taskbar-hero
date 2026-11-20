@@ -1,3 +1,5 @@
+// ASTRA enemy-light hook
+import {updateEnemyLight} from './enemy-relight';
 import {CraftEncounter,isCraftOwner} from '../vfx-craft/encounter';
 import {pinCompiledPrograms} from './program-pin';
 import {canNarrowBattleAtlases,prepareBattleAtlases} from './effect-preload-selection';
@@ -486,7 +488,9 @@ export class SpineScene {
    actor.opaqueWorld=opaque;
    entry.shadow.position.x+=dx*pixelsToWorld;entry.shadow.position.y-=Math.max(0,dy)*pixelsToWorld;entry.shadow.material.opacity=unit.hp<=0?Math.max(0,1-deathAge/.6):1;
    entry.ring.position.copy(entry.shadow.position);
-   if(reaction.flash)actor.root.traverse(node=>{if(node instanceof T.Mesh)(node.material as T.MeshBasicMaterial).color.lerp(new T.Color(2,2,2),.72);});
+   // ASTRA enemy-light hook
+   const directionalHit=unit.side==='enemy'&&updateEnemyLight(entry,view,unit,this,time,life?.sy??1,damageAge);
+   if(reaction.flash&&!directionalHit)actor.root.traverse(node=>{if(node instanceof T.Mesh)(node.material as T.MeshBasicMaterial).color.lerp(new T.Color(2,2,2),.72);});
    if(input&&unit.id===plan?.actorId&&unit.hp>0&&!view.reducedMotion&&!entry.craftPose){
     this.trails.render(actor.root,[1,2,3].map(i=>actionPose({...input,elapsed:input.elapsed-i*1000/30})),rootPose,pixelsToWorld);
    }

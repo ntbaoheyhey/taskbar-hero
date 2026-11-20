@@ -1,0 +1,305 @@
+{
+  "button-guard": {
+    "id": "foe-0-button-guard",
+    "source": "template",
+    "path": "template",
+    "meshes": [
+      {
+        "name": "",
+        "material": "MeshBasicMaterial",
+        "texture": "http://127.0.0.1:6493/units/button-guard/rig-depth.half.webp",
+        "width": 1024,
+        "height": 512,
+        "flipY": true
+      }
+    ],
+    "bounds": {
+      "x": 690.6430127601767,
+      "y": 163.46325407382324,
+      "width": 215.44680582359706,
+      "height": 235.3805669971133
+    },
+    "tier": "standard",
+    "chapter": 1
+  },
+  "sock-skipper": {
+    "id": "foe-1-sock-skipper",
+    "source": "template",
+    "path": "template",
+    "meshes": [
+      {
+        "name": "",
+        "material": "MeshBasicMaterial",
+        "texture": "http://127.0.0.1:6493/units/sock-skipper/rig-depth.half.webp",
+        "width": 1024,
+        "height": 512,
+        "flipY": true
+      }
+    ],
+    "bounds": {
+      "x": 1049.0853942797144,
+      "y": 55.05725036800043,
+      "width": 154.738842404332,
+      "height": 221.52282581263677
+    },
+    "tier": "small",
+    "chapter": 1
+  },
+  "spool-ram": {
+    "id": "foe-2-spool-ram",
+    "source": "template",
+    "path": "template",
+    "meshes": [
+      {
+        "name": "",
+        "material": "MeshBasicMaterial",
+        "texture": "http://127.0.0.1:6493/units/spool-ram/rig-depth.half.avif",
+        "width": 1024,
+        "height": 512,
+        "flipY": true
+      }
+    ],
+    "bounds": {
+      "x": 716.2329635276114,
+      "y": 414.8671577092671,
+      "width": 353.06791394637185,
+      "height": 220.32717200556783
+    },
+    "tier": "standard",
+    "chapter": 1
+  },
+  "needle-moth": {
+    "id": "foe-0-needle-moth",
+    "source": "template",
+    "path": "drawn",
+    "meshes": [
+      {
+        "name": "needle-moth drawn keys",
+        "material": "MeshBasicMaterial",
+        "texture": "http://127.0.0.1:6493/units/needle-moth/poses/K0.avif",
+        "width": 1152,
+        "height": 1152,
+        "flipY": true
+      }
+    ],
+    "pose": "K0",
+    "bounds": {
+      "x": 969.325184475016,
+      "y": 46.647322138608104,
+      "width": 223.6015626909392,
+      "height": 225.73733229062458
+    },
+    "tier": "small",
+    "chapter": 1
+  },
+  "teacup-healer": {
+    "id": "foe-1-teacup-healer",
+    "source": "template",
+    "path": "drawn",
+    "meshes": [
+      {
+        "name": "teacup-healer drawn keys",
+        "material": "MeshBasicMaterial",
+        "texture": "http://127.0.0.1:6493/units/teacup-healer/poses/K0.avif",
+        "width": 1152,
+        "height": 1152,
+        "flipY": true
+      }
+    ],
+    "pose": "K0",
+    "bounds": {
+      "x": 962.68732023353,
+      "y": 275.1026648143478,
+      "width": 243.23116441032516,
+      "height": 227.4038348697395
+    },
+    "tier": "standard",
+    "chapter": 1
+  },
+  "kettle-knight": {
+    "id": "foe-2-kettle-knight",
+    "source": "template",
+    "path": "template",
+    "meshes": [
+      {
+        "name": "",
+        "material": "MeshBasicMaterial",
+        "texture": "http://127.0.0.1:6493/units/kettle-knight/rig-depth.half.avif",
+        "width": 1024,
+        "height": 1024,
+        "flipY": true
+      }
+    ],
+    "bounds": {
+      "x": 678.5892084419028,
+      "y": 172.24659436250644,
+      "width": 251.31116173000635,
+      "height": 221.17262536036313
+    },
+    "tier": "standard",
+    "chapter": 2
+  },
+  "yarn-giant": {
+    "id": "foe-0-yarn-giant",
+    "source": "template",
+    "path": "drawn",
+    "meshes": [
+      {
+        "name": "yarn-giant drawn keys",
+        "material": "MeshBasicMaterial",
+        "texture": "http://127.0.0.1:6493/units/yarn-giant/poses/K0.avif",
+        "width": 1152,
+        "height": 1152,
+        "flipY": true
+      }
+    ],
+    "pose": "K0",
+    "bounds": {
+      "x": 615.5385357540588,
+      "y": 237.92714683058364,
+      "width": 394.46492834973105,
+      "height": 366.4468847530003
+    },
+    "tier": "boss",
+    "chapter": 1
+  },
+  "binding-thread": {
+    "id": "foe-1-binding-thread",
+    "source": "template",
+    "path": "drawn",
+    "meshes": [
+      {
+        "name": "binding-thread drawn keys",
+        "material": "MeshBasicMaterial",
+        "texture": "http://127.0.0.1:6493/units/binding-thread/poses/K0.avif",
+        "width": 896,
+        "height": 896,
+        "flipY": true
+      }
+    ],
+    "pose": "K0",
+    "bounds": {
+      "x": 1044.1953792588808,
+      "y": 390.28506672279826,
+      "width": 151.7005929521249,
+      "height": 220.29024425032645
+    },
+    "tier": "small",
+    "chapter": 1
+  },
+  "practice-cushion": {
+    "id": "foe-2-practice-cushion",
+    "source": "template",
+    "path": "template",
+    "meshes": [
+      {
+        "name": "",
+        "material": "MeshBasicMaterial",
+        "texture": "http://127.0.0.1:6493/units/practice-cushion/rig-depth.half.webp",
+        "width": 1024,
+        "height": 512,
+        "flipY": true
+      }
+    ],
+    "bounds": {
+      "x": 994.6493830847891,
+      "y": 55.99434000732941,
+      "width": 240.55061691521098,
+      "height": 232.27360912586346
+    },
+    "tier": "small",
+    "chapter": 1
+  },
+  "pollen-scout": {
+    "id": "foe-0-pollen-scout",
+    "source": "template",
+    "path": "template",
+    "meshes": [
+      {
+        "name": "",
+        "material": "MeshBasicMaterial",
+        "texture": "http://127.0.0.1:6493/units/pollen-scout/rig-depth.half.avif",
+        "width": 1024,
+        "height": 512,
+        "flipY": true
+      }
+    ],
+    "bounds": {
+      "x": 971.6219936586572,
+      "y": 55.04723171624942,
+      "width": 263.57800634134287,
+      "height": 232.33734289367987
+    },
+    "tier": "small",
+    "chapter": 2
+  },
+  "rain-spool": {
+    "id": "foe-1-rain-spool",
+    "source": "template",
+    "path": "template",
+    "meshes": [
+      {
+        "name": "",
+        "material": "MeshBasicMaterial",
+        "texture": "http://127.0.0.1:6493/units/rain-spool/rig-depth.half.webp",
+        "width": 1024,
+        "height": 512,
+        "flipY": true
+      }
+    ],
+    "bounds": {
+      "x": 647.2390817726096,
+      "y": 236.89058076199933,
+      "width": 428.7974271308967,
+      "height": 369.9946863484073
+    },
+    "tier": "boss",
+    "chapter": 2
+  },
+  "crumb-sentinel": {
+    "id": "foe-2-crumb-sentinel",
+    "source": "template",
+    "path": "template",
+    "meshes": [
+      {
+        "name": "",
+        "material": "MeshBasicMaterial",
+        "texture": "http://127.0.0.1:6493/units/crumb-sentinel/rig-depth.half.avif",
+        "width": 1024,
+        "height": 512,
+        "flipY": true
+      }
+    ],
+    "bounds": {
+      "x": 983.7400818315035,
+      "y": 59.15329924704434,
+      "width": 251.45991816849653,
+      "height": 227.51108478924306
+    },
+    "tier": "standard",
+    "chapter": 3
+  },
+  "pantry-crown": {
+    "id": "foe-0-pantry-crown",
+    "source": "template",
+    "path": "template",
+    "meshes": [
+      {
+        "name": "",
+        "material": "MeshBasicMaterial",
+        "texture": "http://127.0.0.1:6493/units/pantry-crown/rig-depth.half.webp",
+        "width": 1024,
+        "height": 1024,
+        "flipY": true
+      }
+    ],
+    "bounds": {
+      "x": 687.9917158884434,
+      "y": 239.14812861685928,
+      "width": 327.756859621539,
+      "height": 370.3667248719736
+    },
+    "tier": "boss",
+    "chapter": 3
+  }
+}

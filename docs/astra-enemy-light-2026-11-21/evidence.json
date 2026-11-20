@@ -1,0 +1,1879 @@
+[
+  {
+    "file": "alignment/binding-thread.webp",
+    "sha256": "edd7c2e3607f2b440f6245d798621bef2a3f6d2519758bec66b23b033d96b03b",
+    "bytes": 7528,
+    "command": "node tools/astra-enemy-light/learn.mjs && python tools/astra-enemy-light/overlay.py",
+    "sources": [
+      "apps/web/public/units/binding-thread/poses/K0.avif",
+      "apps/web/public/units/binding-thread/rig-depth.webp"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "alignment/button-guard.webp",
+    "sha256": "93b5233254ed6cd423166984603cd19d11b6c0e44615f9068f07c11d0deaf10d",
+    "bytes": 7456,
+    "command": "node tools/astra-enemy-light/learn.mjs && python tools/astra-enemy-light/overlay.py",
+    "sources": [
+      "apps/web/public/units/button-guard/rig-depth.half.webp",
+      "apps/web/public/units/button-guard/rig-depth.webp"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "alignment/crumb-sentinel.webp",
+    "sha256": "45d8ddfb86779fb9835603e9ad3dbfb53ca6d0d0a1379b150ef11cfb2583abab",
+    "bytes": 7920,
+    "command": "node tools/astra-enemy-light/learn.mjs && python tools/astra-enemy-light/overlay.py",
+    "sources": [
+      "apps/web/public/units/crumb-sentinel/rig-depth.half.avif",
+      "apps/web/public/units/crumb-sentinel/rig-depth.webp"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "alignment/kettle-knight.webp",
+    "sha256": "5b112af4f5fbec0d672c2b5f7ccd4471763cc6f82eb5e8ebd3214c2d6b540f02",
+    "bytes": 9622,
+    "command": "node tools/astra-enemy-light/learn.mjs && python tools/astra-enemy-light/overlay.py",
+    "sources": [
+      "apps/web/public/units/kettle-knight/rig-depth.half.avif",
+      "apps/web/public/units/kettle-knight/rig-depth.webp"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "alignment/needle-moth.webp",
+    "sha256": "6b3e33ebd82296d687ff8ede2dcc6db8b42bc9fe2fccc9b6a8c162ab1e6c6fcf",
+    "bytes": 6150,
+    "command": "node tools/astra-enemy-light/learn.mjs && python tools/astra-enemy-light/overlay.py",
+    "sources": [
+      "apps/web/public/units/needle-moth/poses/K0.avif",
+      "apps/web/public/units/needle-moth/rig-depth.webp"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "alignment/pantry-crown.webp",
+    "sha256": "444d7a22ed401a6f06ea1b05af4c337f145e6bbad3ab3cda8c863bde065008ac",
+    "bytes": 10090,
+    "command": "node tools/astra-enemy-light/learn.mjs && python tools/astra-enemy-light/overlay.py",
+    "sources": [
+      "apps/web/public/units/pantry-crown/rig-depth.half.webp",
+      "apps/web/public/units/pantry-crown/rig-depth.webp"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "alignment/pollen-scout.webp",
+    "sha256": "ad162e8a17cc5dc381e7df072e12e8b27a9388c801a0dd3432a20701f579e2d1",
+    "bytes": 6372,
+    "command": "node tools/astra-enemy-light/learn.mjs && python tools/astra-enemy-light/overlay.py",
+    "sources": [
+      "apps/web/public/units/pollen-scout/rig-depth.half.avif",
+      "apps/web/public/units/pollen-scout/rig-depth.webp"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "alignment/practice-cushion.webp",
+    "sha256": "9872245b9058b62f00b2d0fe3b131dbd50c1525abe8b303331832de25c1c168c",
+    "bytes": 5246,
+    "command": "node tools/astra-enemy-light/learn.mjs && python tools/astra-enemy-light/overlay.py",
+    "sources": [
+      "apps/web/public/units/practice-cushion/rig-depth.half.webp",
+      "apps/web/public/units/practice-cushion/rig-depth.webp"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "alignment/rain-spool.webp",
+    "sha256": "dc16a1ef9513da5f91218bcc617d7a77b50012e9e82f9b37fa9d0ccdfb42ef0e",
+    "bytes": 8166,
+    "command": "node tools/astra-enemy-light/learn.mjs && python tools/astra-enemy-light/overlay.py",
+    "sources": [
+      "apps/web/public/units/rain-spool/rig-depth.half.webp",
+      "apps/web/public/units/rain-spool/rig-depth.webp"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "alignment/review-1.webp",
+    "sha256": "638b188f44d9b0751337eea0ad2788a4e40f7dc38413e3115a84f656553186c4",
+    "bytes": 25336,
+    "command": "node tools/astra-enemy-light/learn.mjs && python tools/astra-enemy-light/overlay.py",
+    "sources": [
+      "apps/web/public/units/button-guard/rig-depth.half.webp",
+      "apps/web/public/units/button-guard/rig-depth.webp",
+      "apps/web/public/units/sock-skipper/rig-depth.half.webp",
+      "apps/web/public/units/sock-skipper/rig-depth.webp",
+      "apps/web/public/units/spool-ram/rig-depth.half.avif",
+      "apps/web/public/units/spool-ram/rig-depth.webp",
+      "apps/web/public/units/needle-moth/poses/K0.avif",
+      "apps/web/public/units/needle-moth/rig-depth.webp"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "alignment/review-2.webp",
+    "sha256": "d9926e261aef6054c676fb16d0eed2bb8a37face790bc08371e84da67a0132d6",
+    "bytes": 36832,
+    "command": "node tools/astra-enemy-light/learn.mjs && python tools/astra-enemy-light/overlay.py",
+    "sources": [
+      "apps/web/public/units/teacup-healer/poses/K0.avif",
+      "apps/web/public/units/teacup-healer/rig-depth.webp",
+      "apps/web/public/units/kettle-knight/rig-depth.half.avif",
+      "apps/web/public/units/kettle-knight/rig-depth.webp",
+      "apps/web/public/units/yarn-giant/poses/K0.avif",
+      "apps/web/public/units/yarn-giant/rig-depth.webp",
+      "apps/web/public/units/binding-thread/poses/K0.avif",
+      "apps/web/public/units/binding-thread/rig-depth.webp"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "alignment/review-3.webp",
+    "sha256": "cc92874b75889b1e5abedb751444c901b620f1bab54678f19077e3cca5779b77",
+    "bytes": 26792,
+    "command": "node tools/astra-enemy-light/learn.mjs && python tools/astra-enemy-light/overlay.py",
+    "sources": [
+      "apps/web/public/units/practice-cushion/rig-depth.half.webp",
+      "apps/web/public/units/practice-cushion/rig-depth.webp",
+      "apps/web/public/units/pollen-scout/rig-depth.half.avif",
+      "apps/web/public/units/pollen-scout/rig-depth.webp",
+      "apps/web/public/units/rain-spool/rig-depth.half.webp",
+      "apps/web/public/units/rain-spool/rig-depth.webp",
+      "apps/web/public/units/crumb-sentinel/rig-depth.half.avif",
+      "apps/web/public/units/crumb-sentinel/rig-depth.webp"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "alignment/review-4.webp",
+    "sha256": "3ebce1971a66d53b7665cc20fcbb0bdb01b32716d3fe8e1e82d2c247334f23d4",
+    "bytes": 10342,
+    "command": "node tools/astra-enemy-light/learn.mjs && python tools/astra-enemy-light/overlay.py",
+    "sources": [
+      "apps/web/public/units/pantry-crown/rig-depth.half.webp",
+      "apps/web/public/units/pantry-crown/rig-depth.webp"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "alignment/sock-skipper.webp",
+    "sha256": "4f9a0835a6c0f69c9ab7e836e977104163f285be42a5125e742aa3ee6d43dda8",
+    "bytes": 6776,
+    "command": "node tools/astra-enemy-light/learn.mjs && python tools/astra-enemy-light/overlay.py",
+    "sources": [
+      "apps/web/public/units/sock-skipper/rig-depth.half.webp",
+      "apps/web/public/units/sock-skipper/rig-depth.webp"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "alignment/spool-ram.webp",
+    "sha256": "616b348f7d331e459e977583deda23b7a8be08fcd9442b43cb9f996eb080afc5",
+    "bytes": 5072,
+    "command": "node tools/astra-enemy-light/learn.mjs && python tools/astra-enemy-light/overlay.py",
+    "sources": [
+      "apps/web/public/units/spool-ram/rig-depth.half.avif",
+      "apps/web/public/units/spool-ram/rig-depth.webp"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "alignment/teacup-healer.webp",
+    "sha256": "26dc1422e6d8a65ce9da64fc3cc1a9cacd5bc5d24611a143db30d4f3974493e2",
+    "bytes": 10064,
+    "command": "node tools/astra-enemy-light/learn.mjs && python tools/astra-enemy-light/overlay.py",
+    "sources": [
+      "apps/web/public/units/teacup-healer/poses/K0.avif",
+      "apps/web/public/units/teacup-healer/rig-depth.webp"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "alignment/yarn-giant.webp",
+    "sha256": "d2071c14dadb33d9fdda75dc64ccb6f9f8b41f8e074eeec0388dd2e357424a6a",
+    "bytes": 9870,
+    "command": "node tools/astra-enemy-light/learn.mjs && python tools/astra-enemy-light/overlay.py",
+    "sources": [
+      "apps/web/public/units/yarn-giant/poses/K0.avif",
+      "apps/web/public/units/yarn-giant/rig-depth.webp"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/binding-thread-after.webp",
+    "sha256": "141ec7629f39bfba3c8ff15887952361644af9ed5086597e29812b4a9065f153",
+    "bytes": 171636,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/binding-thread/poses/K0.avif",
+      "apps/web/public/units/binding-thread/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/binding-thread-before.webp",
+    "sha256": "a1d8d75c1cb05e0ea0a84fcaacdd8acf285a4f557286ec63d30ebe59c6f9c33b",
+    "bytes": 171506,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/binding-thread/poses/K0.avif",
+      "apps/web/public/units/binding-thread/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/button-guard-after.webp",
+    "sha256": "758d6dfaf26b1313e6267bd86bef880d2bb6944f76b31fc57fe5481980597315",
+    "bytes": 181110,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/button-guard/rig-depth.half.webp",
+      "apps/web/public/units/button-guard/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/button-guard-before.webp",
+    "sha256": "3d49ebac5ec2896f987993a2610c3fd7fd78eae3ca2eef4a41dad1ffb0e9d606",
+    "bytes": 180314,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/button-guard/rig-depth.half.webp",
+      "apps/web/public/units/button-guard/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/crumb-sentinel-after.webp",
+    "sha256": "46b347c0826cc1658ecde977f343dacb571977fece7d908f31032b4c6a561514",
+    "bytes": 186678,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/crumb-sentinel/rig-depth.half.avif",
+      "apps/web/public/units/crumb-sentinel/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/crumb-sentinel-before.webp",
+    "sha256": "23a3939816f682f7d525573a0485f0844d9d5f8dfeeaeffc39e1775841746624",
+    "bytes": 186862,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/crumb-sentinel/rig-depth.half.avif",
+      "apps/web/public/units/crumb-sentinel/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/kettle-knight-after.webp",
+    "sha256": "d3f830c903c3ab1880b5f070c0190ecd8967ebd077e313eeffb2b5de4adca583",
+    "bytes": 186274,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/kettle-knight/rig-depth.half.avif",
+      "apps/web/public/units/kettle-knight/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/kettle-knight-before.webp",
+    "sha256": "308f4965919bf5d49bbfd9856ad9092410a07e379aef90da85da2d983d2d6834",
+    "bytes": 186932,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/kettle-knight/rig-depth.half.avif",
+      "apps/web/public/units/kettle-knight/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/needle-moth-after.webp",
+    "sha256": "326ca1dec6f837129176020a83e6a8c492523edba5c8726c6a4a14a8a982faa1",
+    "bytes": 173126,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/needle-moth/poses/K0.avif",
+      "apps/web/public/units/needle-moth/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/needle-moth-before.webp",
+    "sha256": "27f5a0f4157be9f3a24f1eb8318989981a0ba21d1ba00d530f0738e44abe0ca7",
+    "bytes": 173010,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/needle-moth/poses/K0.avif",
+      "apps/web/public/units/needle-moth/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/pantry-crown-after.webp",
+    "sha256": "65bc12ceca9ebf871790e5fdf85024f9628087356e98600d7a396acb7dc32134",
+    "bytes": 212914,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/pantry-crown/rig-depth.half.webp",
+      "apps/web/public/units/pantry-crown/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/pantry-crown-before.webp",
+    "sha256": "cf68b44eda57024b181ff82f321b61e5a724a45fba8e4c9c1250cac7d716277d",
+    "bytes": 212622,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/pantry-crown/rig-depth.half.webp",
+      "apps/web/public/units/pantry-crown/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/pantry-crown-phase2-after.webp",
+    "sha256": "ed376f6afc534d8942554efd5af86b9b32822828142f6b95729dcc2302ab5d89",
+    "bytes": 211516,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/pantry-crown/rig-depth.half.webp",
+      "apps/web/public/units/pantry-crown/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/pantry-crown-phase2-before.webp",
+    "sha256": "8eaa453b53aeb95079f54786e6ae1e0a50a65ba3cca862d0a25aa698639f99b9",
+    "bytes": 211468,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/pantry-crown/rig-depth.half.webp",
+      "apps/web/public/units/pantry-crown/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/pollen-scout-after.webp",
+    "sha256": "0c25e1ff4c2d97eb0b4608fed1a546206f7ad1471ccbaba691946dfd02567dbe",
+    "bytes": 186744,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/pollen-scout/rig-depth.half.avif",
+      "apps/web/public/units/pollen-scout/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/pollen-scout-before.webp",
+    "sha256": "de75b5c471c554ec04abd3390673216d27cf22395b2bfcb1edef770695beb783",
+    "bytes": 186870,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/pollen-scout/rig-depth.half.avif",
+      "apps/web/public/units/pollen-scout/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/practice-cushion-after.webp",
+    "sha256": "b5bcedb9c687e447bbd5388dc2e24eed6b4ce5734e5e485036624c522cba06c0",
+    "bytes": 176790,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/practice-cushion/rig-depth.half.webp",
+      "apps/web/public/units/practice-cushion/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/practice-cushion-before.webp",
+    "sha256": "ee483518afb53110a8b547f03478641d13b3a7012f672fd4662f1e0e28f0e5d7",
+    "bytes": 176994,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/practice-cushion/rig-depth.half.webp",
+      "apps/web/public/units/practice-cushion/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/rain-spool-after.webp",
+    "sha256": "37288cc8c1e1c1a863007d54818840178c27af310fca16c94f3682722fa05aba",
+    "bytes": 213096,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/rain-spool/rig-depth.half.webp",
+      "apps/web/public/units/rain-spool/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/rain-spool-before.webp",
+    "sha256": "8b6483fae913376d83c2e1a3c3465713b31b782ab0c2e367a0407808f3c0b7c3",
+    "bytes": 213222,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/rain-spool/rig-depth.half.webp",
+      "apps/web/public/units/rain-spool/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/rain-spool-phase2-after.webp",
+    "sha256": "b0259e292544bd6e96c73628641fed53265d5dae73deaac11ccd8dbaa348458a",
+    "bytes": 211574,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/rain-spool/rig-depth.half.webp",
+      "apps/web/public/units/rain-spool/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/rain-spool-phase2-before.webp",
+    "sha256": "e0c749a99190c233ce943f512420f0cf5f95466625c41f63d0ad9ff553c4a986",
+    "bytes": 210146,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/rain-spool/rig-depth.half.webp",
+      "apps/web/public/units/rain-spool/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/sock-skipper-after.webp",
+    "sha256": "3d26a5fe3fafe368ca09421e0090f34d8abdb40cfc0a375c95fc709530bf43be",
+    "bytes": 174682,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/sock-skipper/rig-depth.half.webp",
+      "apps/web/public/units/sock-skipper/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/sock-skipper-before.webp",
+    "sha256": "649366e3b221c849d9eaba5caceb059a74c3061b91b16cc3193f3a73909eadbb",
+    "bytes": 174642,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/sock-skipper/rig-depth.half.webp",
+      "apps/web/public/units/sock-skipper/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/spool-ram-after.webp",
+    "sha256": "ec98bf7bf93cd7500b694c4be499b24caca83560626d671c3bcccd2deddaffde",
+    "bytes": 182906,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/spool-ram/rig-depth.half.avif",
+      "apps/web/public/units/spool-ram/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/spool-ram-before.webp",
+    "sha256": "b6d5c37a8e673cc1bbd53100ea59bba24dec6a1dc75a1ed0ef3f07176bf1b922",
+    "bytes": 182804,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/spool-ram/rig-depth.half.avif",
+      "apps/web/public/units/spool-ram/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/teacup-healer-after.webp",
+    "sha256": "61b5385d3398a63c62fbe99182a6a7372cfc86a48c0b6dbf1ed079b831a26c72",
+    "bytes": 175334,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/teacup-healer/poses/K0.avif",
+      "apps/web/public/units/teacup-healer/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/teacup-healer-before.webp",
+    "sha256": "8b4ec968a0379c2ca02b2130b6c786cce3017327dec118d83e28ec48ff518ea2",
+    "bytes": 175168,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/teacup-healer/poses/K0.avif",
+      "apps/web/public/units/teacup-healer/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/yarn-giant-after.webp",
+    "sha256": "a003515c285562f338ef7701778eb5d13501fbd02281ca205f94fdc25f3727f2",
+    "bytes": 204286,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/yarn-giant/poses/K0.avif",
+      "apps/web/public/units/yarn-giant/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/yarn-giant-before.webp",
+    "sha256": "efae3c0c5682153f226da78a0a0482f88bd8b5e1980e17beace4ab6a8a63ecee",
+    "bytes": 204468,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/yarn-giant/poses/K0.avif",
+      "apps/web/public/units/yarn-giant/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/yarn-giant-phase2-after.webp",
+    "sha256": "d642ffb84c825b3cf202295611533fbabb1385298e38454daec789c3604e3c76",
+    "bytes": 207836,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/yarn-giant/poses/K0.avif",
+      "apps/web/public/units/yarn-giant/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "battle/yarn-giant-phase2-before.webp",
+    "sha256": "56d7ebc998741662b82d40d8b5d8182be2669de0e6cd9c5e5ce9f09e8dd9a3fe",
+    "bytes": 209132,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --out=reports/astra-enemy-light/phase-C",
+    "sources": [
+      "apps/web/public/units/yarn-giant/poses/K0.avif",
+      "apps/web/public/units/yarn-giant/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "blind-A/group-1.webp",
+    "sha256": "38794448f79ea5fb03a74c86110f8f5d7b5f8dcc86a2cc67491a38cdbbe85717",
+    "bytes": 87430,
+    "command": "node tools/astra-enemy-light/ab.mjs A --reproduce",
+    "sources": [
+      "reports/astra-enemy-light/phase-A/dpr-2",
+      "docs/astra-enemy-light-2026-11-21/blind-A/result.json"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "blind-A/group-2.webp",
+    "sha256": "4a432d5f797e37ee0621a36654dc7467412b7ebfaae1480c7eb64cebe2bf0445",
+    "bytes": 92472,
+    "command": "node tools/astra-enemy-light/ab.mjs A --reproduce",
+    "sources": [
+      "reports/astra-enemy-light/phase-A/dpr-2",
+      "docs/astra-enemy-light-2026-11-21/blind-A/result.json"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "blind-A/group-3.webp",
+    "sha256": "dbc66c94ede131c1c46264be670d1d623f7d96533dc67a4eca8f9d3a11846edc",
+    "bytes": 109582,
+    "command": "node tools/astra-enemy-light/ab.mjs A --reproduce",
+    "sources": [
+      "reports/astra-enemy-light/phase-A/dpr-2",
+      "docs/astra-enemy-light-2026-11-21/blind-A/result.json"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "blind-B/group-1.webp",
+    "sha256": "d7a1cc52e8d222d0d8939060dabbe595ef0edc01b110a4facf9ced90c135e643",
+    "bytes": 87594,
+    "command": "node tools/astra-enemy-light/ab.mjs B --reproduce",
+    "sources": [
+      "reports/astra-enemy-light/phase-B/dpr-2",
+      "docs/astra-enemy-light-2026-11-21/blind-B/result.json"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "blind-B/group-2.webp",
+    "sha256": "7939587903f1bf9a20187ec7c1a59890c4dd94ec06dcd0a2107d53c0a2bccf04",
+    "bytes": 92352,
+    "command": "node tools/astra-enemy-light/ab.mjs B --reproduce",
+    "sources": [
+      "reports/astra-enemy-light/phase-B/dpr-2",
+      "docs/astra-enemy-light-2026-11-21/blind-B/result.json"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "blind-B/group-3.webp",
+    "sha256": "2047c99b2e6112c813cab704d2eb6c6ab8e51f5d8ec393a85bc3b2fdb268778a",
+    "bytes": 109458,
+    "command": "node tools/astra-enemy-light/ab.mjs B --reproduce",
+    "sources": [
+      "reports/astra-enemy-light/phase-B/dpr-2",
+      "docs/astra-enemy-light-2026-11-21/blind-B/result.json"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "blind-C/group-1.webp",
+    "sha256": "b8be9564c07a91202fe8b6abdd143520148d453e7f14e187a8153405f887c8a8",
+    "bytes": 87604,
+    "command": "node tools/astra-enemy-light/ab.mjs C --reproduce",
+    "sources": [
+      "reports/astra-enemy-light/phase-C/dpr-2",
+      "docs/astra-enemy-light-2026-11-21/blind-C/result.json"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "blind-C/group-2.webp",
+    "sha256": "7386feff29bd943fbbf55a129d7c9d9de1d5d9d280fffd68d937fabe5e0de6a2",
+    "bytes": 92354,
+    "command": "node tools/astra-enemy-light/ab.mjs C --reproduce",
+    "sources": [
+      "reports/astra-enemy-light/phase-C/dpr-2",
+      "docs/astra-enemy-light-2026-11-21/blind-C/result.json"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "blind-C/group-3.webp",
+    "sha256": "a8518936b03dfb774b8ce53bf6846a8364c2f68ab7396477c8bf880a58b27464",
+    "bytes": 109432,
+    "command": "node tools/astra-enemy-light/ab.mjs C --reproduce",
+    "sources": [
+      "reports/astra-enemy-light/phase-C/dpr-2",
+      "docs/astra-enemy-light-2026-11-21/blind-C/result.json"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/binding-thread-crown-after.webp",
+    "sha256": "4c24ffc7a680353e433dcd982e0ae86a11a531f53798d1fb47d793743bf1f381",
+    "bytes": 9776,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/binding-thread/poses/K0.avif",
+      "apps/web/public/units/binding-thread/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/binding-thread-garden-after.webp",
+    "sha256": "911041113b94bae21704313d75c1961e4436a24d11b4f84b7ce78b5241095b6d",
+    "bytes": 9858,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/binding-thread/poses/K0.avif",
+      "apps/web/public/units/binding-thread/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/binding-thread-pantry-after.webp",
+    "sha256": "b74f25a3e13cf3935cff580b13a28b2ea40b1f529341a72b90413f3e5cf439f4",
+    "bytes": 9904,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/binding-thread/poses/K0.avif",
+      "apps/web/public/units/binding-thread/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/binding-thread-rain-after.webp",
+    "sha256": "59eeeb5a4049cc6950e1fb12c574789e8873ed94021af9e661ca48fe012b2dca",
+    "bytes": 9924,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/binding-thread/poses/K0.avif",
+      "apps/web/public/units/binding-thread/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/binding-thread-storm-after.webp",
+    "sha256": "4ca46b64f523cf1a22fb303f7cba5f8e873437670133cbf16ebb4e414ce333f9",
+    "bytes": 9878,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/binding-thread/poses/K0.avif",
+      "apps/web/public/units/binding-thread/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/binding-thread-tangle-after.webp",
+    "sha256": "898ce103272f867254b01032118cea3e8708d0aa1e7ceb264448bae34cde9e68",
+    "bytes": 9878,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/binding-thread/poses/K0.avif",
+      "apps/web/public/units/binding-thread/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/button-guard-crown-after.webp",
+    "sha256": "c84c81ad778e322fdd63f52a42fad6f61bffd8a3c3827784ee9a2bd86b6e42e9",
+    "bytes": 18996,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/button-guard/rig-depth.half.webp",
+      "apps/web/public/units/button-guard/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/button-guard-garden-after.webp",
+    "sha256": "7fe7dd08583ae002d1b7aca4fb175533584b368e57268fa8ebdb500762b680b6",
+    "bytes": 19162,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/button-guard/rig-depth.half.webp",
+      "apps/web/public/units/button-guard/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/button-guard-pantry-after.webp",
+    "sha256": "66bb556cb7ef33f7bb3c3af8618679d9ed179adadbb56d404cf8e519b47f0f72",
+    "bytes": 18842,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/button-guard/rig-depth.half.webp",
+      "apps/web/public/units/button-guard/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/button-guard-rain-after.webp",
+    "sha256": "64fe23c5f3afe015d4958fea3c4decb4507943d730c7df74ddd3b4bc9fbc8d67",
+    "bytes": 18946,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/button-guard/rig-depth.half.webp",
+      "apps/web/public/units/button-guard/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/button-guard-storm-after.webp",
+    "sha256": "ac45d84fdabcacca24a8b911dd214ecb062e0e5aef678191995da55e4cda580b",
+    "bytes": 18904,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/button-guard/rig-depth.half.webp",
+      "apps/web/public/units/button-guard/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/button-guard-tangle-after.webp",
+    "sha256": "908dfa952603db92c270dfdcc89147c73821497ba68ea3a5ccc0055ae1aa458d",
+    "bytes": 18972,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/button-guard/rig-depth.half.webp",
+      "apps/web/public/units/button-guard/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/crumb-sentinel-crown-after.webp",
+    "sha256": "7eb296ba6c29a5df3d998807efa358b78935de8048b648ea7b19b9e0fa6d73db",
+    "bytes": 18072,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/crumb-sentinel/rig-depth.half.avif",
+      "apps/web/public/units/crumb-sentinel/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/crumb-sentinel-garden-after.webp",
+    "sha256": "e1353bfdf49339fb7a7c2d7857dc416d3d404989eea32be5459319598e7e8ab7",
+    "bytes": 18166,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/crumb-sentinel/rig-depth.half.avif",
+      "apps/web/public/units/crumb-sentinel/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/crumb-sentinel-pantry-after.webp",
+    "sha256": "1a35fb645b936456f93057e2c05481ffa6452ecdd473c2aa584c2e044949024c",
+    "bytes": 18026,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/crumb-sentinel/rig-depth.half.avif",
+      "apps/web/public/units/crumb-sentinel/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/crumb-sentinel-rain-after.webp",
+    "sha256": "c07d20066f317ef6d0497c6b2932361ce57616e989d832475a2ddae1604b7723",
+    "bytes": 17906,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/crumb-sentinel/rig-depth.half.avif",
+      "apps/web/public/units/crumb-sentinel/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/crumb-sentinel-storm-after.webp",
+    "sha256": "ab1b97fa16ac02ada78c1a132e1fae1d55f36f0354338eb5c0ddf22431f0ce59",
+    "bytes": 17812,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/crumb-sentinel/rig-depth.half.avif",
+      "apps/web/public/units/crumb-sentinel/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/crumb-sentinel-tangle-after.webp",
+    "sha256": "052fd7dd0904a99d917af9ddeb5c6fa83c971fb3ff7547bcacf26b5fce84f1e1",
+    "bytes": 18068,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/crumb-sentinel/rig-depth.half.avif",
+      "apps/web/public/units/crumb-sentinel/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/kettle-knight-crown-after.webp",
+    "sha256": "65c3d2bd405c35facc55f56d75b29f2d702b79d4cecdad9e1a8cc1651274ab4a",
+    "bytes": 18374,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/kettle-knight/rig-depth.half.avif",
+      "apps/web/public/units/kettle-knight/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/kettle-knight-garden-after.webp",
+    "sha256": "7e0fd625bdb74c8b95adc03435954198a090aa8cbdb6574cda6bc5898ed277c5",
+    "bytes": 18462,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/kettle-knight/rig-depth.half.avif",
+      "apps/web/public/units/kettle-knight/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/kettle-knight-pantry-after.webp",
+    "sha256": "e99c4b4410d36c56cb99b31b3d090722ff73dd60d417fdfe6a123c7ef47ef328",
+    "bytes": 18552,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/kettle-knight/rig-depth.half.avif",
+      "apps/web/public/units/kettle-knight/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/kettle-knight-rain-after.webp",
+    "sha256": "987b728aade665223b48e0177432c782c2b6def645afa455da7383d3af8b060a",
+    "bytes": 18276,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/kettle-knight/rig-depth.half.avif",
+      "apps/web/public/units/kettle-knight/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/kettle-knight-storm-after.webp",
+    "sha256": "5ba345ea56bb8d9fbb81058cfc486774e5a2b860a433b0d6e533fde7b8c2d88b",
+    "bytes": 18316,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/kettle-knight/rig-depth.half.avif",
+      "apps/web/public/units/kettle-knight/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/kettle-knight-tangle-after.webp",
+    "sha256": "83e7549ae0fc1bccfe28fc32824bff2f54b3e1058c96ed6b365955e50d94c5b8",
+    "bytes": 18400,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/kettle-knight/rig-depth.half.avif",
+      "apps/web/public/units/kettle-knight/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/needle-moth-crown-after.webp",
+    "sha256": "eee09aa38c8d045997f80df5dc81cb51f732cd4648416154f0403d610b26affb",
+    "bytes": 13190,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/needle-moth/poses/K0.avif",
+      "apps/web/public/units/needle-moth/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/needle-moth-garden-after.webp",
+    "sha256": "1077a6a302ccf32b36e161e5aeb86496363d4e0d6f078c1c18394f8d75e7923b",
+    "bytes": 13392,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/needle-moth/poses/K0.avif",
+      "apps/web/public/units/needle-moth/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/needle-moth-pantry-after.webp",
+    "sha256": "8e4afc63f2889445cf95dbbfe8709af6a2f3e4e788e5809682b0689929606448",
+    "bytes": 13356,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/needle-moth/poses/K0.avif",
+      "apps/web/public/units/needle-moth/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/needle-moth-rain-after.webp",
+    "sha256": "8a5bf74840c4c1262ea367e66107b8b39edc542354f3dddc21d066289bd09744",
+    "bytes": 13302,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/needle-moth/poses/K0.avif",
+      "apps/web/public/units/needle-moth/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/needle-moth-storm-after.webp",
+    "sha256": "d01cd9bbe53d54427bec45a9abbac02c84f2ce9491026a2ee9d1740e464d4f90",
+    "bytes": 13276,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/needle-moth/poses/K0.avif",
+      "apps/web/public/units/needle-moth/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/needle-moth-tangle-after.webp",
+    "sha256": "a2bb99a9563f2a58a6144fbf45b639eaa179c7e413e9682b6d816cc010a3d6bc",
+    "bytes": 13180,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/needle-moth/poses/K0.avif",
+      "apps/web/public/units/needle-moth/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/pantry-crown-crown-after.webp",
+    "sha256": "a2dd1b1db9b30101336bdf795c1e1286a0abe24d6c96bd01970bbe1c4a49bba3",
+    "bytes": 20308,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/pantry-crown/rig-depth.half.webp",
+      "apps/web/public/units/pantry-crown/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/pantry-crown-garden-after.webp",
+    "sha256": "1766d80763bba4bf39afd7a932b1d4dade65f7a87b75971e3ebbade9e2021a51",
+    "bytes": 20308,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/pantry-crown/rig-depth.half.webp",
+      "apps/web/public/units/pantry-crown/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/pantry-crown-pantry-after.webp",
+    "sha256": "7b19d449c0e8f2d89972f8c8f2d0c3bcbfd4c3e78f6b380b5e2aafeea0836bfc",
+    "bytes": 20328,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/pantry-crown/rig-depth.half.webp",
+      "apps/web/public/units/pantry-crown/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/pantry-crown-rain-after.webp",
+    "sha256": "04ca0b9ac4a30d3fd83fe2798b60f452579dea51a5257f16f81b40a1809f8dfe",
+    "bytes": 20484,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/pantry-crown/rig-depth.half.webp",
+      "apps/web/public/units/pantry-crown/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/pantry-crown-storm-after.webp",
+    "sha256": "7807ac9ab59065b91f6744afffb6efd771d96b3970462120f5f95a5d1dde05ba",
+    "bytes": 20230,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/pantry-crown/rig-depth.half.webp",
+      "apps/web/public/units/pantry-crown/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/pantry-crown-tangle-after.webp",
+    "sha256": "53989234f4e0d8c116965d87a5a9f7a194ec66de23b30ab2a2139884ea98fa15",
+    "bytes": 20110,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/pantry-crown/rig-depth.half.webp",
+      "apps/web/public/units/pantry-crown/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/pollen-scout-crown-after.webp",
+    "sha256": "461a593f0c8e4f7e75a7a74259dd48e78a04f7e0d2a09db650dd0cf266475376",
+    "bytes": 16498,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/pollen-scout/rig-depth.half.avif",
+      "apps/web/public/units/pollen-scout/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/pollen-scout-garden-after.webp",
+    "sha256": "937ae2c7c9e07ca9936796ad2ddac2780d11c228bfbd6b5442bdebecf6084765",
+    "bytes": 16668,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/pollen-scout/rig-depth.half.avif",
+      "apps/web/public/units/pollen-scout/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/pollen-scout-pantry-after.webp",
+    "sha256": "535190fc0cc9b1736ae61c7d8c9f2375d481d5dfb6a515c3d67aba970619cc85",
+    "bytes": 16592,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/pollen-scout/rig-depth.half.avif",
+      "apps/web/public/units/pollen-scout/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/pollen-scout-rain-after.webp",
+    "sha256": "e05e3fab9f9d5933f5a08fc9cac3b9ccbe6016dde4503004c96355dcd0d6bd8c",
+    "bytes": 16456,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/pollen-scout/rig-depth.half.avif",
+      "apps/web/public/units/pollen-scout/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/pollen-scout-storm-after.webp",
+    "sha256": "30acdb756e1b30747e6db58d52fe3f590078cdb67847ca8c89f8b5120aaa4fd3",
+    "bytes": 16384,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/pollen-scout/rig-depth.half.avif",
+      "apps/web/public/units/pollen-scout/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/pollen-scout-tangle-after.webp",
+    "sha256": "d706b471d528cd1ec6b410ee345e924d5c81c5389b9ec447ddc31e3ac50ae7c1",
+    "bytes": 16430,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/pollen-scout/rig-depth.half.avif",
+      "apps/web/public/units/pollen-scout/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/practice-cushion-crown-after.webp",
+    "sha256": "1f1fa1fff935f7671e8dac48e578e045d4b46a1437d38d7c5e16a97111ff9452",
+    "bytes": 16338,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/practice-cushion/rig-depth.half.webp",
+      "apps/web/public/units/practice-cushion/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/practice-cushion-garden-after.webp",
+    "sha256": "1ad2cb98fe4440e504a11a67ff295849e6a848c6fbc9da5fd97f29e2049bcb91",
+    "bytes": 16326,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/practice-cushion/rig-depth.half.webp",
+      "apps/web/public/units/practice-cushion/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/practice-cushion-pantry-after.webp",
+    "sha256": "7362df8add176671909d8aff6509019b51c1f3d44d75ae66cc5d4d31d1f55f03",
+    "bytes": 16362,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/practice-cushion/rig-depth.half.webp",
+      "apps/web/public/units/practice-cushion/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/practice-cushion-rain-after.webp",
+    "sha256": "95a4a7dec1f09575bded730cfe879c2325165b3202f6be1b68ebca429c7eebae",
+    "bytes": 16202,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/practice-cushion/rig-depth.half.webp",
+      "apps/web/public/units/practice-cushion/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/practice-cushion-storm-after.webp",
+    "sha256": "a79454b0919bf2815be305247b43fdc041584279d992f9c2ca3fbffd27c2859d",
+    "bytes": 16150,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/practice-cushion/rig-depth.half.webp",
+      "apps/web/public/units/practice-cushion/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/practice-cushion-tangle-after.webp",
+    "sha256": "92ae9772ea432d6c3510d4aead4d3caabe6784e5e6eb2250dda638db1edbfce9",
+    "bytes": 16224,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/practice-cushion/rig-depth.half.webp",
+      "apps/web/public/units/practice-cushion/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/rain-spool-crown-after.webp",
+    "sha256": "d17c8279120637ba55c63894458189991b6626cefc12b40e9c3c775ec534c938",
+    "bytes": 21172,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/rain-spool/rig-depth.half.webp",
+      "apps/web/public/units/rain-spool/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/rain-spool-garden-after.webp",
+    "sha256": "5300ac5fb64c17dafa368bb0cccc0be3c57c2461acb80039c2311a276cc7173f",
+    "bytes": 21194,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/rain-spool/rig-depth.half.webp",
+      "apps/web/public/units/rain-spool/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/rain-spool-pantry-after.webp",
+    "sha256": "fb5737a5eb2bfb004d9196168e07a83e27e563fd510cd99ac13858db0afa975d",
+    "bytes": 21154,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/rain-spool/rig-depth.half.webp",
+      "apps/web/public/units/rain-spool/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/rain-spool-rain-after.webp",
+    "sha256": "f5163d6103b6cbb4bff7da177d6acbb77ab17501184580e0061c83afe6433d5a",
+    "bytes": 21214,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/rain-spool/rig-depth.half.webp",
+      "apps/web/public/units/rain-spool/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/rain-spool-storm-after.webp",
+    "sha256": "1ebcabc4d182105ade9b3ace7511a22ff3c2b607ba8f72f2fe1c1617e2737f44",
+    "bytes": 21128,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/rain-spool/rig-depth.half.webp",
+      "apps/web/public/units/rain-spool/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/rain-spool-tangle-after.webp",
+    "sha256": "5a2d32c69f41cc832ed85367d80e182b859cd150e6f0576bb039c0093bc4a95d",
+    "bytes": 21126,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/rain-spool/rig-depth.half.webp",
+      "apps/web/public/units/rain-spool/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/sock-skipper-crown-after.webp",
+    "sha256": "0ec939ddd6a1b5d16b72a0e7d8750f1cadeb43a6cb543823082f92dd68ee8ff4",
+    "bytes": 12492,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/sock-skipper/rig-depth.half.webp",
+      "apps/web/public/units/sock-skipper/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/sock-skipper-garden-after.webp",
+    "sha256": "9c86e827862573687c8e76b6ce00196bc3b61f3229ceca80ba9bb17d0156f2f1",
+    "bytes": 12584,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/sock-skipper/rig-depth.half.webp",
+      "apps/web/public/units/sock-skipper/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/sock-skipper-pantry-after.webp",
+    "sha256": "ee7dd583ab8475a5ceddb875efc524a4dbb6a0f6530bffade1aacf97db4aff4f",
+    "bytes": 12546,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/sock-skipper/rig-depth.half.webp",
+      "apps/web/public/units/sock-skipper/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/sock-skipper-rain-after.webp",
+    "sha256": "3602a237ee6af155ce6cd2db144d8ec062079d2c2d259da073a8994934efd437",
+    "bytes": 12468,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/sock-skipper/rig-depth.half.webp",
+      "apps/web/public/units/sock-skipper/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/sock-skipper-storm-after.webp",
+    "sha256": "e9810c068ee303f9279c907053294cdbb5a5d6bb9da5ff10f1c0f1c9d52b9c05",
+    "bytes": 12436,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/sock-skipper/rig-depth.half.webp",
+      "apps/web/public/units/sock-skipper/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/sock-skipper-tangle-after.webp",
+    "sha256": "50132ebd4a9af41b9353c38449b326bebc29c63b5fd72b31ee1dc2bac1855a14",
+    "bytes": 12404,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/sock-skipper/rig-depth.half.webp",
+      "apps/web/public/units/sock-skipper/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/spool-ram-crown-after.webp",
+    "sha256": "a134ddb38899ccc3aed24a6cc2ca3eaae260f3ddfe57aa7705d24103bfd91673",
+    "bytes": 12644,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/spool-ram/rig-depth.half.avif",
+      "apps/web/public/units/spool-ram/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/spool-ram-garden-after.webp",
+    "sha256": "2288fc76d18e7f2299f0f216d284e1a2c6fc0f45dbdeda74543b7a277ac098bc",
+    "bytes": 12564,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/spool-ram/rig-depth.half.avif",
+      "apps/web/public/units/spool-ram/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/spool-ram-pantry-after.webp",
+    "sha256": "d42774093fa71f12584544a8de060e8f81e291e0cc8f69edc4c7691d9dc9f1de",
+    "bytes": 12680,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/spool-ram/rig-depth.half.avif",
+      "apps/web/public/units/spool-ram/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/spool-ram-rain-after.webp",
+    "sha256": "0c2b29e4d9e7cc737ad64b97c1061315aa8c428e5614876d335c726109cfbf46",
+    "bytes": 12546,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/spool-ram/rig-depth.half.avif",
+      "apps/web/public/units/spool-ram/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/spool-ram-storm-after.webp",
+    "sha256": "2a1cf724c25c19d1de516810241cd3bd89f831ba1ebfaa2fb3917db6d6576bed",
+    "bytes": 12264,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/spool-ram/rig-depth.half.avif",
+      "apps/web/public/units/spool-ram/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/spool-ram-tangle-after.webp",
+    "sha256": "3cb0521f27afcd4fd165ddf945d828ced6f98a4a2b7e043d5460b74c42312465",
+    "bytes": 12484,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/spool-ram/rig-depth.half.avif",
+      "apps/web/public/units/spool-ram/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/teacup-healer-crown-after.webp",
+    "sha256": "4bcca2d3bfbb035e9a722178cd7d002478c0cb88c5556ca202e2e164bd25c64e",
+    "bytes": 14672,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/teacup-healer/poses/K0.avif",
+      "apps/web/public/units/teacup-healer/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/teacup-healer-garden-after.webp",
+    "sha256": "da94c5791891a704f5f8e7c046e8434ceded8c9949363ae25318e9d7cc8e7a60",
+    "bytes": 14570,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/teacup-healer/poses/K0.avif",
+      "apps/web/public/units/teacup-healer/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/teacup-healer-pantry-after.webp",
+    "sha256": "c21b13ef541338b370038ca2b04b6a0d5125e5ecf2afbc3b56e4f22a63c8bea8",
+    "bytes": 14488,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/teacup-healer/poses/K0.avif",
+      "apps/web/public/units/teacup-healer/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/teacup-healer-rain-after.webp",
+    "sha256": "0cceb205fbf862f64cbeaf31aad020e62325c878032e0dcd08ee32b5f306b59d",
+    "bytes": 14546,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/teacup-healer/poses/K0.avif",
+      "apps/web/public/units/teacup-healer/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/teacup-healer-storm-after.webp",
+    "sha256": "c13baf0690c75094b8d2b66f0e5cb78232b26944b0a1edc70cdc852bf4f4cabf",
+    "bytes": 14640,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/teacup-healer/poses/K0.avif",
+      "apps/web/public/units/teacup-healer/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/teacup-healer-tangle-after.webp",
+    "sha256": "d95c00c8db91367fa25c8b8e24405599d89b260f5d362b77fa65e060c674e850",
+    "bytes": 14448,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/teacup-healer/poses/K0.avif",
+      "apps/web/public/units/teacup-healer/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/yarn-giant-crown-after.webp",
+    "sha256": "96bdacf67a18946ada8fcf40a55e79d8b324c5bb83917b8382b37724aeb5156a",
+    "bytes": 18036,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/yarn-giant/poses/K0.avif",
+      "apps/web/public/units/yarn-giant/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/yarn-giant-garden-after.webp",
+    "sha256": "7cb5c517690ed80c76766bdea44ceb4023eda340a76deb0d6ef0c4608c726652",
+    "bytes": 18078,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/yarn-giant/poses/K0.avif",
+      "apps/web/public/units/yarn-giant/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/yarn-giant-pantry-after.webp",
+    "sha256": "342e62044a3c3cf191c60b22af95802424267e04c07008b8cf5a2e5b44f3225c",
+    "bytes": 18184,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/yarn-giant/poses/K0.avif",
+      "apps/web/public/units/yarn-giant/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/yarn-giant-rain-after.webp",
+    "sha256": "0c3688b0845f2cccc9a8768246f7a9d7f6ff51b59f47cdebc5ec03b7b2cd27d3",
+    "bytes": 18284,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/yarn-giant/poses/K0.avif",
+      "apps/web/public/units/yarn-giant/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/yarn-giant-storm-after.webp",
+    "sha256": "6c64d5d016ec25b2a439eeabb67a6840d835e3e47f3ff5f36fef3a2e9e454f49",
+    "bytes": 18246,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/yarn-giant/poses/K0.avif",
+      "apps/web/public/units/yarn-giant/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "gallery/yarn-giant-tangle-after.webp",
+    "sha256": "37488a1f211fba78a916da3294691d2d3cb4d3a2492fae313df135b5b28b8668",
+    "bytes": 18308,
+    "command": "node tools/astra-enemy-light/capture.mjs --dpr=2 --mode=after --gallery",
+    "sources": [
+      "apps/web/public/units/yarn-giant/poses/K0.avif",
+      "apps/web/public/units/yarn-giant/relight-normal.webp",
+      "apps/web/src/game/cardrpg/spine/scene.ts",
+      "tools/astra-enemy-light/fixture.mjs"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "motion/arrival.webp",
+    "sha256": "fe2022442b204db83c329fa1592af6b06c77a38ca861ec604bf1b2029d88f70a",
+    "bytes": 31238,
+    "command": "node tools/astra-enemy-light/motion.mjs C",
+    "sources": [
+      "tools/astra-enemy-light/fixture.mjs",
+      "apps/web/src/game/cardrpg/spine/scene.ts"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "motion/impact-165.webp",
+    "sha256": "727c3013d61d58a6a75b5ee6917bd5294c3ba615b3ec111f27076f657d03ddd3",
+    "bytes": 34668,
+    "command": "node tools/astra-enemy-light/motion.mjs C",
+    "sources": [
+      "tools/astra-enemy-light/fixture.mjs",
+      "apps/web/src/game/cardrpg/spine/scene.ts"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "motion/impact-20-reduced.webp",
+    "sha256": "9e523a4a092ff350d73b79c5452ec858692f4280030843992851da47eaacf104",
+    "bytes": 34162,
+    "command": "node tools/astra-enemy-light/motion.mjs C",
+    "sources": [
+      "tools/astra-enemy-light/fixture.mjs",
+      "apps/web/src/game/cardrpg/spine/scene.ts"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "motion/impact-20.webp",
+    "sha256": "5aed33e03689e17f180dd4934d10243f812bef35ce0239615b51147ab5c17841",
+    "bytes": 33410,
+    "command": "node tools/astra-enemy-light/motion.mjs C",
+    "sources": [
+      "tools/astra-enemy-light/fixture.mjs",
+      "apps/web/src/game/cardrpg/spine/scene.ts"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "motion/impact-90.webp",
+    "sha256": "d4a764070ce8362bdab0ffcf490bea1251a3d9001f869acd95638509269b9310",
+    "bytes": 34346,
+    "command": "node tools/astra-enemy-light/motion.mjs C",
+    "sources": [
+      "tools/astra-enemy-light/fixture.mjs",
+      "apps/web/src/game/cardrpg/spine/scene.ts"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "motion/phase-two.webp",
+    "sha256": "312fdaee35ab70e4751672c125710546c22dd192ec8aa45ed6d5ef49f4bce5a1",
+    "bytes": 34940,
+    "command": "node tools/astra-enemy-light/motion.mjs C",
+    "sources": [
+      "tools/astra-enemy-light/fixture.mjs",
+      "apps/web/src/game/cardrpg/spine/scene.ts"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "motion/rain-spool-death-100.webp",
+    "sha256": "b9046e936acbb1dc927bf8cc69366eab96f04d298d15b02144829809cbf09f2a",
+    "bytes": 35186,
+    "command": "node tools/astra-enemy-light/motion.mjs C",
+    "sources": [
+      "tools/astra-enemy-light/fixture.mjs",
+      "apps/web/src/game/cardrpg/spine/scene.ts"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "motion/rain-spool-death-300.webp",
+    "sha256": "a8fa807a646ef7f4c3cd2a6053c72785e62a065c055c349200336cf19e095a32",
+    "bytes": 33572,
+    "command": "node tools/astra-enemy-light/motion.mjs C",
+    "sources": [
+      "tools/astra-enemy-light/fixture.mjs",
+      "apps/web/src/game/cardrpg/spine/scene.ts"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "motion/rain-spool-death-500.webp",
+    "sha256": "67719f205dbcf81f123fe36f27dfa6de1f188ba50562f1853cc2f8581be3672d",
+    "bytes": 15402,
+    "command": "node tools/astra-enemy-light/motion.mjs C",
+    "sources": [
+      "tools/astra-enemy-light/fixture.mjs",
+      "apps/web/src/game/cardrpg/spine/scene.ts"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "motion/reduced-arrival.webp",
+    "sha256": "393ab78f42ee477e88361e67eaac6459a5585ac1f8742244d42c3c7c5901b9ea",
+    "bytes": 32352,
+    "command": "node tools/astra-enemy-light/motion.mjs C",
+    "sources": [
+      "tools/astra-enemy-light/fixture.mjs",
+      "apps/web/src/game/cardrpg/spine/scene.ts"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "motion/yarn-giant-death-100.webp",
+    "sha256": "ebe7bee7dc8bd87f010e5981eb7bb125552ee8d1e39268fd3179b69acee87c56",
+    "bytes": 33566,
+    "command": "node tools/astra-enemy-light/motion.mjs C",
+    "sources": [
+      "tools/astra-enemy-light/fixture.mjs",
+      "apps/web/src/game/cardrpg/spine/scene.ts"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "motion/yarn-giant-death-300.webp",
+    "sha256": "4b9d6d1be9158a86dda2febe9672d68bb653251139d7d6b236d4ee9bb41eec87",
+    "bytes": 25464,
+    "command": "node tools/astra-enemy-light/motion.mjs C",
+    "sources": [
+      "tools/astra-enemy-light/fixture.mjs",
+      "apps/web/src/game/cardrpg/spine/scene.ts"
+    ],
+    "date": "2026-11-21"
+  },
+  {
+    "file": "motion/yarn-giant-death-500.webp",
+    "sha256": "45b29026334a0f78a4304258ed6a860ec56b3e9393538cf83e5bd1e4f251a12e",
+    "bytes": 13150,
+    "command": "node tools/astra-enemy-light/motion.mjs C",
+    "sources": [
+      "tools/astra-enemy-light/fixture.mjs",
+      "apps/web/src/game/cardrpg/spine/scene.ts"
+    ],
+    "date": "2026-11-21"
+  }
+]

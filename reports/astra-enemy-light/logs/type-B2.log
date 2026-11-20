@@ -1,0 +1,4 @@
+
+> @taskbar-hero/web@0.0.0 typecheck /Users/bao/.codex/worktrees/th-astra/taskbar-hero/apps/web
+> tsc --noEmit
+

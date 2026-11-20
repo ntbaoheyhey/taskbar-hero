@@ -1,0 +1,4 @@
+Sheet 1. Button Guard, Sock Skipper and Spool Ram have matching packed colour parts. Needle Moth has a whole moth below the wing and body atlas islands. The first three align in UV, the moth does not.
+Sheet 2. Kettle Knight matches the painted atlas. Teacup Healer, Yarn Giant and Binding Thread each show a second whole body over unrelated parts. Their poses are misaligned.
+Sheet 3. Cushion, Pollen Scout, Rain Spool and Crumb Sentinel align. Both layers show the same paint, buckles, seams and face features.
+Sheet 4. Pantry Crown aligns in normalized UV. Its crown, cloth and weapon are coloured on the nominal depth page.

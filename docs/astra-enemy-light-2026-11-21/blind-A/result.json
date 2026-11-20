@@ -1,0 +1,91 @@
+{
+  "phase": "A",
+  "wins": 12,
+  "total": 12,
+  "rows": [
+    {
+      "id": "button-guard",
+      "after": "L",
+      "side": "L",
+      "reason": "Cooler far boot and helmet edge give the shield a readable thickness.",
+      "win": true
+    },
+    {
+      "id": "sock-skipper",
+      "after": "R",
+      "side": "R",
+      "reason": "The side of the pouch turns into violet shade and the boots have a firmer contact.",
+      "win": true
+    },
+    {
+      "id": "spool-ram",
+      "after": "L",
+      "side": "L",
+      "reason": "The rear spool lip separates from the flank and the horns keep their warm paint.",
+      "win": true
+    },
+    {
+      "id": "needle-moth",
+      "after": "L",
+      "side": "L",
+      "reason": "The darker folds beneath the last abdomen segment make the moth look rounder.",
+      "win": true
+    },
+    {
+      "id": "teacup-healer",
+      "after": "R",
+      "side": "R",
+      "reason": "The handle and raised hand catch cooler light across from the warm spoon.",
+      "win": true
+    },
+    {
+      "id": "kettle-knight",
+      "after": "L",
+      "side": "L",
+      "reason": "The rolled handle and gauntlet have a cooler underside and the apron sits in shade.",
+      "win": true
+    },
+    {
+      "id": "yarn-giant-phase2",
+      "after": "L",
+      "side": "L",
+      "reason": "The heavy front fist and boot sit deeper against the floor while the crown stays bright.",
+      "win": true
+    },
+    {
+      "id": "binding-thread",
+      "after": "R",
+      "side": "R",
+      "reason": "The rope twists from a warmer left edge into a cooler right hand.",
+      "win": true
+    },
+    {
+      "id": "pollen-scout",
+      "after": "L",
+      "side": "L",
+      "reason": "The far wing turns away from the key without losing its stitched outline.",
+      "win": true
+    },
+    {
+      "id": "rain-spool",
+      "after": "R",
+      "side": "R",
+      "reason": "Rain-blue fills the far side of the cloak and the feet read as weight-bearing.",
+      "win": true
+    },
+    {
+      "id": "crumb-sentinel",
+      "after": "R",
+      "side": "R",
+      "reason": "The lid catches a directional stripe and the shield rolls into shade.",
+      "win": true
+    },
+    {
+      "id": "pantry-crown-phase2",
+      "after": "L",
+      "side": "L",
+      "reason": "The far gauntlet separates from the red body and the grounded silhouette carries more weight.",
+      "win": true
+    }
+  ]
+}

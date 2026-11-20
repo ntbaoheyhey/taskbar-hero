@@ -1,0 +1,145 @@
+{
+  "action": {
+    "actor": "mochi",
+    "contact": 350,
+    "skill": "mochi-1"
+  },
+  "rows": [
+    {
+      "name": "impact-20",
+      "id": "button-guard",
+      "motion": [
+        0.9997706143416545,
+        0.95703125,
+        -1,
+        -1
+      ],
+      "colour": [
+        1,
+        0.78,
+        0.36
+      ],
+      "rim": "b5acff",
+      "normal": 1,
+      "death": -1,
+      "visible": true
+    },
+    {
+      "name": "impact-90",
+      "id": "button-guard",
+      "motion": [
+        0.9989166644989487,
+        0.40673828125,
+        -1,
+        -1
+      ],
+      "colour": [
+        1,
+        0.78,
+        0.36
+      ],
+      "rim": "b5acff",
+      "normal": 1,
+      "death": -1,
+      "visible": true
+    },
+    {
+      "name": "impact-165",
+      "id": "button-guard",
+      "motion": [
+        0.9980729729617107,
+        0,
+        -1,
+        -1
+      ],
+      "colour": [
+        1,
+        0.78,
+        0.36
+      ],
+      "rim": "b5acff",
+      "normal": 1,
+      "death": -1,
+      "visible": true
+    },
+    {
+      "name": "impact-20-reduced",
+      "id": "button-guard",
+      "motion": [
+        1,
+        0,
+        -1,
+        -1
+      ],
+      "colour": [
+        1,
+        0.78,
+        0.36
+      ],
+      "rim": "b5acff",
+      "normal": 1,
+      "death": -1,
+      "visible": true
+    },
+    {
+      "name": "arrival",
+      "id": "yarn-giant",
+      "motion": [
+        1.0036217603349809,
+        0,
+        -1,
+        0.49999999999999695
+      ],
+      "colour": [
+        1,
+        1,
+        1
+      ],
+      "rim": "bda1ff",
+      "normal": 1,
+      "pose": "K0",
+      "death": -1,
+      "visible": true
+    },
+    {
+      "name": "phase-two",
+      "id": "yarn-giant",
+      "motion": [
+        1.0036217603349809,
+        0,
+        -1,
+        -1
+      ],
+      "colour": [
+        1,
+        1,
+        1
+      ],
+      "rim": "f78079",
+      "normal": 1,
+      "pose": "K0",
+      "death": -1,
+      "visible": true
+    },
+    {
+      "name": "reduced-arrival",
+      "id": "yarn-giant",
+      "motion": [
+        1,
+        0,
+        -1,
+        -1
+      ],
+      "colour": [
+        1,
+        1,
+        1
+      ],
+      "rim": "bda1ff",
+      "normal": 1,
+      "pose": "K0",
+      "death": -1,
+      "visible": true
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+
+ RUN  v5.0.5 /Users/bao/.codex/worktrees/th-astra/taskbar-hero/apps/web
+
+
+ Test Files  80 passed (80)
+      Tests  440 passed (440)
+   Start at  01:56:45
+   Duration  18.40s (environment 66%, tests 14%, import 13%, transform 7%, worker 1%)
+
+Environment  jsdom was created 80 times · 20.89s total, 66% of tracked time
+             create it once per worker with pool: 'vmThreads' (keeps per-file isolation) or isolate: false (shares it across files)
+             learn more: https://vitest.dev/guide/improving-performance#test-environments
+

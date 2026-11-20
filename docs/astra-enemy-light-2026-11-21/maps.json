@@ -1,0 +1,162 @@
+[
+  {
+    "file": "apps/web/public/units/button-guard/relight-normal.webp",
+    "size": [
+      512,
+      256
+    ],
+    "sha256": "517c413d9e9b7fbdb703b32a3e250b77e94ccdb3ce1e9d801e791f5f50696cab",
+    "sources": [
+      "apps/web/public/units/button-guard/rig-depth.png"
+    ]
+  },
+  {
+    "file": "apps/web/public/units/sock-skipper/relight-normal.webp",
+    "size": [
+      512,
+      256
+    ],
+    "sha256": "05e070c13a6701985edf7066fb3be0925d8f5444e0c23e281ed6bf6244bf683c",
+    "sources": [
+      "apps/web/public/units/sock-skipper/rig-depth.png"
+    ]
+  },
+  {
+    "file": "apps/web/public/units/spool-ram/relight-normal.webp",
+    "size": [
+      512,
+      256
+    ],
+    "sha256": "f294a97b7a35d696e9141a0665426a4dcc7cbed12f1f3fe6037af2a199c23793",
+    "sources": [
+      "apps/web/public/units/spool-ram/rig-depth.png"
+    ]
+  },
+  {
+    "file": "apps/web/public/units/needle-moth/relight-normal.webp",
+    "size": [
+      960,
+      640
+    ],
+    "sha256": "7650b25420d2b03637c548df54816dc41625dbe1c5435649e6b9cbbdb2fd20b8",
+    "sources": [
+      "apps/web/public/units/needle-moth/poses/manifest.json",
+      "apps/web/public/units/needle-moth/poses/K0.webp",
+      "apps/web/public/units/needle-moth/poses/K1.webp",
+      "apps/web/public/units/needle-moth/poses/K2.webp",
+      "apps/web/public/units/needle-moth/poses/K4.webp"
+    ]
+  },
+  {
+    "file": "apps/web/public/units/teacup-healer/relight-normal.webp",
+    "size": [
+      960,
+      640
+    ],
+    "sha256": "82c9349286eb51cfbde1b036044963cf679fd3a891cbb44c5b5f5736db447b14",
+    "sources": [
+      "apps/web/public/units/teacup-healer/poses/manifest.json",
+      "apps/web/public/units/teacup-healer/poses/K0.webp",
+      "apps/web/public/units/teacup-healer/poses/K1.webp",
+      "apps/web/public/units/teacup-healer/poses/K2.webp",
+      "apps/web/public/units/teacup-healer/poses/K4.webp"
+    ]
+  },
+  {
+    "file": "apps/web/public/units/kettle-knight/relight-normal.webp",
+    "size": [
+      512,
+      512
+    ],
+    "sha256": "a8e62727534c92cde59ae41ec99c7aab90ccc9b4647f2fab249779ca2d40b274",
+    "sources": [
+      "apps/web/public/units/kettle-knight/rig-depth.png"
+    ]
+  },
+  {
+    "file": "apps/web/public/units/yarn-giant/relight-normal.webp",
+    "size": [
+      960,
+      640
+    ],
+    "sha256": "7f07c7b03f9f87bae663bd377cbf5856d39d5f8fe93b03501981b53f00af3940",
+    "sources": [
+      "apps/web/public/units/yarn-giant/poses/manifest.json",
+      "apps/web/public/units/yarn-giant/poses/K0.webp",
+      "apps/web/public/units/yarn-giant/poses/K1.webp",
+      "apps/web/public/units/yarn-giant/poses/K2.webp",
+      "apps/web/public/units/yarn-giant/poses/K4.webp",
+      "apps/web/public/units/yarn-giant/poses/K5.webp"
+    ]
+  },
+  {
+    "file": "apps/web/public/units/binding-thread/relight-normal.webp",
+    "size": [
+      960,
+      640
+    ],
+    "sha256": "605b8cb33b49daa61a65798f97e40e76099bc7834394d0b063e55482229ecf6e",
+    "sources": [
+      "apps/web/public/units/binding-thread/poses/manifest.json",
+      "apps/web/public/units/binding-thread/poses/K0.webp",
+      "apps/web/public/units/binding-thread/poses/K1.webp",
+      "apps/web/public/units/binding-thread/poses/K2.webp",
+      "apps/web/public/units/binding-thread/poses/K4.webp"
+    ]
+  },
+  {
+    "file": "apps/web/public/units/practice-cushion/relight-normal.webp",
+    "size": [
+      512,
+      256
+    ],
+    "sha256": "34447d061606927bfa779d8ed8d422c3cab32b1c5aea4b82b35354759e02b05f",
+    "sources": [
+      "apps/web/public/units/practice-cushion/rig-depth.png"
+    ]
+  },
+  {
+    "file": "apps/web/public/units/pollen-scout/relight-normal.webp",
+    "size": [
+      512,
+      256
+    ],
+    "sha256": "9f2e8e96714bffb47d54f49c7244d076ccefc85896fdd0957a9a781375e98552",
+    "sources": [
+      "apps/web/public/units/pollen-scout/rig-depth.png"
+    ]
+  },
+  {
+    "file": "apps/web/public/units/rain-spool/relight-normal.webp",
+    "size": [
+      512,
+      256
+    ],
+    "sha256": "69f5133497a3ebda2b03a521a5580e36b24c4aae34d65fd48fef71bd6c372b3b",
+    "sources": [
+      "apps/web/public/units/rain-spool/rig-depth.png"
+    ]
+  },
+  {
+    "file": "apps/web/public/units/crumb-sentinel/relight-normal.webp",
+    "size": [
+      512,
+      256
+    ],
+    "sha256": "a4c19efdc49d9ac1da48ea777f993acb6cb2c3f9adb93b21987d81ea0c5bc47d",
+    "sources": [
+      "apps/web/public/units/crumb-sentinel/rig-depth.png"
+    ]
+  },
+  {
+    "file": "apps/web/public/units/pantry-crown/relight-normal.webp",
+    "size": [
+      512,
+      512
+    ],
+    "sha256": "1e6bd4d284287287959eaebfd27cd5cf0f11b0f6e824ff5ebcb58914e70fe58c",
+    "sources": [
+      "apps/web/public/units/pantry-crown/rig-depth.png"
+    ]
+  }
+]

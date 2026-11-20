@@ -1,0 +1,134 @@
+{
+  "phase": "complete",
+  "step": "draft verified",
+  "lastPush": "64675f1bc",
+  "prUrl": "https://github.com/ntbaoheyhey/taskbar-hero/pull/463",
+  "killSwitch": "enemyLight=0",
+  "perf": {
+    "method": "1280x720, DPR 1, Metal Chromium, 3s warmup then 20s RAF intervals in the unpaused campaign; standard auto choices. RGBA8 decoded map bytes, no mipmaps.",
+    "browser": "156.0.8078.4",
+    "allMapBytes": 15597568,
+    "scenarios": {
+      "wave3": {
+        "before": {
+          "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Pro, Unspecified Version)",
+          "frames": 1198,
+          "p50": 16.7,
+          "p95": 16.7,
+          "max": 33.3,
+          "above50": 0,
+          "durationMs": 20009.5,
+          "draws": 50,
+          "textures": 42,
+          "eventsPlayed": 95,
+          "assets": [
+            "crumb-sentinel",
+            "kettle-knight",
+            "needle-moth",
+            "pollen-scout",
+            "spool-ram",
+            "teacup-healer"
+          ],
+          "mapBytes": 0
+        },
+        "after": {
+          "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Pro, Unspecified Version)",
+          "frames": 1198,
+          "p50": 16.7,
+          "p95": 16.8,
+          "max": 33.3,
+          "above50": 0,
+          "durationMs": 20015.20000000298,
+          "draws": 50,
+          "textures": 48,
+          "eventsPlayed": 95,
+          "assets": [
+            "crumb-sentinel",
+            "kettle-knight",
+            "needle-moth",
+            "pollen-scout",
+            "spool-ram",
+            "teacup-healer"
+          ],
+          "mapBytes": 7536640
+        },
+        "deltaP95": 0.1,
+        "green": true
+      },
+      "boss": {
+        "after": {
+          "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Pro, Unspecified Version)",
+          "frames": 1199,
+          "p50": 16.7,
+          "p95": 16.7,
+          "max": 33.4,
+          "above50": 0,
+          "durationMs": 20015.59999999404,
+          "draws": 41,
+          "textures": 40,
+          "eventsPlayed": 96,
+          "assets": [
+            "binding-thread",
+            "yarn-giant"
+          ],
+          "mapBytes": 4915200
+        },
+        "before": {
+          "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Pro, Unspecified Version)",
+          "frames": 1198,
+          "p50": 16.7,
+          "p95": 16.7,
+          "max": 33.3,
+          "above50": 0,
+          "durationMs": 20009.5,
+          "draws": 41,
+          "textures": 38,
+          "eventsPlayed": 96,
+          "assets": [
+            "binding-thread",
+            "yarn-giant"
+          ],
+          "mapBytes": 0
+        },
+        "deltaP95": 0,
+        "green": true
+      }
+    }
+  },
+  "score": 88,
+  "gates": {
+    "A": {
+      "G1": "PASS",
+      "G2": "PASS",
+      "G3": "PASS",
+      "G4": "PASS",
+      "G5": "PASS",
+      "G6": "PASS",
+      "G7": "PASS",
+      "G8": "PASS"
+    },
+    "B": {
+      "G1": "PASS",
+      "G2": "PASS",
+      "G3": "PASS",
+      "G4": "PASS",
+      "G5": "PASS",
+      "G6": "PASS",
+      "G7": "PASS",
+      "G8": "PASS"
+    },
+    "C": {
+      "G1": "PASS",
+      "G2": "PASS",
+      "G3": "PASS",
+      "G4": "PASS",
+      "G5": "PASS",
+      "G6": "PASS",
+      "G7": "PASS",
+      "G8": "PASS"
+    }
+  },
+  "publishedRef": "origin/codex/astra-enemy-light-2026-11-21",
+  "fullSuite": "The integrated production build and all 3,292 web tests passed.",
+  "integrationBase": "dfd48e642"
+}

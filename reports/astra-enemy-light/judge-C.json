@@ -1,0 +1,42 @@
+{
+  "off": [
+    {
+      "battle": "Guard the café",
+      "result": "party",
+      "rounds": 3,
+      "choices": 9,
+      "events": 69,
+      "logSha256": "0b15f4a20f709b2f32a37a2788b0cfd1b9d90f8c8b184784e67f8fdd0a124793",
+      "resultSha256": "b239ce4bdddd0fc4e9965e5b77f6c222fd19b9abd3b4f5fafabe3a8c656b6a42"
+    },
+    {
+      "battle": "Face the Yarn Giant",
+      "result": "party",
+      "rounds": 3,
+      "choices": 9,
+      "events": 109,
+      "logSha256": "1ecd723c782988a31b72d1f745f565933734f8f717f4d050f227e843c7f08ba0",
+      "resultSha256": "5cac730a6f96804e450f42e8184bd1c8e56b540a5d32c56ef51fe7605079fc94"
+    }
+  ],
+  "on": [
+    {
+      "battle": "Guard the café",
+      "result": "party",
+      "rounds": 3,
+      "choices": 9,
+      "events": 69,
+      "logSha256": "0b15f4a20f709b2f32a37a2788b0cfd1b9d90f8c8b184784e67f8fdd0a124793",
+      "resultSha256": "b239ce4bdddd0fc4e9965e5b77f6c222fd19b9abd3b4f5fafabe3a8c656b6a42"
+    },
+    {
+      "battle": "Face the Yarn Giant",
+      "result": "party",
+      "rounds": 3,
+      "choices": 9,
+      "events": 109,
+      "logSha256": "1ecd723c782988a31b72d1f745f565933734f8f717f4d050f227e843c7f08ba0",
+      "resultSha256": "5cac730a6f96804e450f42e8184bd1c8e56b540a5d32c56ef51fe7605079fc94"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "method": "1280x720, DPR 1, Metal Chromium, 3s warmup then 20s RAF intervals in the unpaused campaign; standard auto choices. RGBA8 decoded map bytes, no mipmaps.",
+  "browser": "156.0.8078.4",
+  "allMapBytes": 15597568,
+  "scenarios": {
+    "wave3": {
+      "before": {
+        "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Pro, Unspecified Version)",
+        "frames": 1124,
+        "p50": 16.69999999999891,
+        "p95": 16.799999999999272,
+        "max": 216.60000000000218,
+        "above50": 9,
+        "durationMs": 20013.20000000298,
+        "draws": 50,
+        "textures": 44,
+        "eventsPlayed": 119,
+        "assets": [
+          "crumb-sentinel",
+          "kettle-knight",
+          "needle-moth",
+          "pollen-scout",
+          "spool-ram",
+          "teacup-healer"
+        ],
+        "mapBytes": 0
+      },
+      "after": {
+        "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Pro, Unspecified Version)",
+        "frames": 1198,
+        "p50": 16.69999999999891,
+        "p95": 16.799999999999272,
+        "max": 33.30000000000018,
+        "above50": 0,
+        "durationMs": 20013.30000001192,
+        "draws": 50,
+        "textures": 50,
+        "eventsPlayed": 119,
+        "assets": [
+          "crumb-sentinel",
+          "kettle-knight",
+          "needle-moth",
+          "pollen-scout",
+          "spool-ram",
+          "teacup-healer"
+        ],
+        "mapBytes": 7536640
+      },
+      "deltaP95": 0,
+      "green": true
+    },
+    "boss": {
+      "after": {
+        "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Pro, Unspecified Version)",
+        "frames": 1187,
+        "p50": 16.69999999999891,
+        "p95": 16.700000000000728,
+        "max": 83.5,
+        "above50": 3,
+        "durationMs": 20015.29999999702,
+        "draws": 41,
+        "textures": 40,
+        "eventsPlayed": 112,
+        "assets": [
+          "binding-thread",
+          "yarn-giant"
+        ],
+        "mapBytes": 4915200
+      },
+      "before": {
+        "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Pro, Unspecified Version)",
+        "frames": 1199,
+        "p50": 16.69999999999891,
+        "p95": 16.799999999999272,
+        "max": 33.30000000000109,
+        "above50": 0,
+        "durationMs": 20009.59999999404,
+        "draws": 41,
+        "textures": 38,
+        "eventsPlayed": 112,
+        "assets": [
+          "binding-thread",
+          "yarn-giant"
+        ],
+        "mapBytes": 0
+      },
+      "deltaP95": -0.1,
+      "green": false
+    }
+  }
+}
