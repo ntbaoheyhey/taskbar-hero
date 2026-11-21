@@ -1,0 +1,171 @@
+{
+ "url": "/?demo=1&squad=1&cardrpg2=1&a6=1&dev=1",
+ "storage": {
+  "lantern.coach.v3": "{\"disabled\":true}",
+  "lantern.entered.v3": "1",
+  "lantern-story-seen": "[\"opening\",\"ch1-intro\",\"ch1-boss\",\"ch1-clear\",\"ch2-intro\",\"ch2-boss\",\"ch2-clear\",\"ch3-intro\",\"ch3-boss\",\"ending\"]"
+ },
+ "shots": [
+  {
+   "id": "story_ch1",
+   "storage": {
+    "lantern.coach.v3": "{\"disabled\":true}",
+    "lantern.entered.v3": "1",
+    "lantern-story-seen": "[\"opening\", \"ch1-boss\", \"ch1-clear\", \"ch2-intro\", \"ch2-boss\", \"ch2-clear\", \"ch3-intro\", \"ch3-boss\", \"ending\"]"
+   },
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "eval": "(()=>{const m=window.__depthReview;m.state.tutorial=4;m.state.cleared=[1,2];m.start(1);m.notify&&m.notify(false);})()"
+    },
+    {
+     "waitFor": "!!document.querySelector('.story-beat')"
+    }
+   ],
+   "settle": 300,
+   "seconds": 2.4,
+   "during": [
+    {
+     "at": 0,
+     "hideCursor": true
+    }
+   ]
+  },
+  {
+   "id": "story_ch2",
+   "storage": {
+    "lantern.coach.v3": "{\"disabled\":true}",
+    "lantern.entered.v3": "1",
+    "lantern-story-seen": "[\"opening\", \"ch1-intro\", \"ch1-boss\", \"ch1-clear\", \"ch2-boss\", \"ch2-clear\", \"ch3-intro\", \"ch3-boss\", \"ending\"]"
+   },
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "eval": "(()=>{const m=window.__depthReview;m.state.tutorial=4;m.state.cleared=[1,2];m.start(2);m.notify&&m.notify(false);})()"
+    },
+    {
+     "waitFor": "!!document.querySelector('.story-beat')"
+    }
+   ],
+   "settle": 300,
+   "seconds": 2.4,
+   "during": [
+    {
+     "at": 0,
+     "hideCursor": true
+    }
+   ]
+  },
+  {
+   "id": "story_ch3",
+   "storage": {
+    "lantern.coach.v3": "{\"disabled\":true}",
+    "lantern.entered.v3": "1",
+    "lantern-story-seen": "[\"opening\", \"ch1-intro\", \"ch1-boss\", \"ch1-clear\", \"ch2-intro\", \"ch2-boss\", \"ch2-clear\", \"ch3-boss\", \"ending\"]"
+   },
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "eval": "(()=>{const m=window.__depthReview;m.state.tutorial=4;m.state.cleared=[1,2];m.start(3);m.notify&&m.notify(false);})()"
+    },
+    {
+     "waitFor": "!!document.querySelector('.story-beat')"
+    }
+   ],
+   "settle": 300,
+   "seconds": 2.4,
+   "during": [
+    {
+     "at": 0,
+     "hideCursor": true
+    }
+   ]
+  },
+  {
+   "id": "route_map_ch1",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "eval": "(()=>{const m=window.__depthReview;m.state.tutorial=4;m.start(1);})()"
+    }
+   ],
+   "settle": 1200,
+   "seconds": 5.6,
+   "mouseStart": [
+    700,
+    620
+   ],
+   "during": [
+    {
+     "at": 0.3,
+     "move": [
+      420,
+      420
+     ],
+     "dur": 1.2
+    },
+    {
+     "at": 1.8,
+     "move": [
+      1010,
+      330
+     ],
+     "dur": 1.6
+    }
+   ]
+  },
+  {
+   "id": "f_ch1_tap",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "eval": "(async()=>{const m=window.__depthReview;m.state.tutorial=4;m.state.cleared=[1,2];m.start(1);await new Promise(r=>setTimeout(r,300));m.state.run.visited=[];m.enter('0-0');await new Promise(r=>setTimeout(r,800));const b=m.battle;for(const a of (b.actors||[]))if(a.side==='party')a.charge=100;})()"
+    },
+    {
+     "click": "Fight",
+     "nth": 0
+    },
+    {
+     "waitFor": "window.__depthReview.sceneReady===true"
+    }
+   ],
+   "settle": 200,
+   "seconds": 8,
+   "mouseStart": [
+    900,
+    520
+   ],
+   "during": [
+    {
+     "at": 0.6,
+     "move": [
+      512,
+      665
+     ],
+     "dur": 0.5
+    },
+    {
+     "at": 1.2,
+     "clickAt": [
+      512,
+      665
+     ]
+    },
+    {
+     "at": 1.5499999999999998,
+     "hideCursor": true
+    }
+   ]
+  }
+ ]
+}

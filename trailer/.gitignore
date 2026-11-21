@@ -1,0 +1,11 @@
+audio/
+vo/temp/
+build/
+shots/
+frames/
+*.wav
+__pycache__/
+out/
+probe/
+*.mp4
+*.mov

@@ -1,0 +1,246 @@
+{
+ "url": "/?demo=1&squad=1&cardrpg2=1&a6=1&dev=1",
+ "storage": {
+  "lantern.coach.v3": "{\"disabled\":true}",
+  "lantern.entered.v3": "1",
+  "lantern-story-seen": "[\"opening\",\"ch1-intro\",\"ch1-boss\",\"ch1-clear\",\"ch2-intro\",\"ch2-boss\",\"ch2-clear\",\"ch3-intro\",\"ch3-boss\",\"ending\"]"
+ },
+ "shots": [
+  {
+   "id": "cafe_home",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    }
+   ],
+   "settle": 2500,
+   "seconds": 5.0
+  },
+  {
+   "id": "cats_mochi",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "click": "Cats"
+    },
+    {
+     "after": 800
+    },
+    {
+     "click": "Mochi, melee",
+     "exact": false
+    }
+   ],
+   "settle": 800,
+   "seconds": 3.2
+  },
+  {
+   "id": "cats_clover",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "click": "Cats"
+    },
+    {
+     "after": 800
+    },
+    {
+     "click": "Clover, healer",
+     "exact": false
+    }
+   ],
+   "settle": 800,
+   "seconds": 3.2
+  },
+  {
+   "id": "cats_soot",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "click": "Cats"
+    },
+    {
+     "after": 800
+    },
+    {
+     "click": "Soot, ranged",
+     "exact": false
+    }
+   ],
+   "settle": 800,
+   "seconds": 3.2
+  },
+  {
+   "id": "cats_all",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "click": "Cats"
+    },
+    {
+     "after": 800
+    },
+    {
+     "click": "Discover all"
+    }
+   ],
+   "settle": 1000,
+   "seconds": 3.0
+  },
+  {
+   "id": "cats_gear",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "click": "Cats"
+    },
+    {
+     "after": 800
+    },
+    {
+     "click": "Mochi, melee",
+     "exact": false
+    },
+    {
+     "after": 500
+    }
+   ],
+   "settle": 600,
+   "seconds": 4.0,
+   "mouseStart": [
+    900,
+    560
+   ],
+   "during": [
+    {
+     "at": 0.6,
+     "tapBtn": "Gear",
+     "nth": 0,
+     "lead": 0.6
+    }
+   ]
+  },
+  {
+   "id": "route_map_ch1",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "eval": "(()=>{const m=window.__depthReview;m.state.tutorial=4;m.start(1);})()"
+    }
+   ],
+   "settle": 1200,
+   "seconds": 5.6,
+   "mouseStart": [
+    700,
+    620
+   ],
+   "during": [
+    {
+     "at": 0.3,
+     "move": [
+      420,
+      420
+     ],
+     "dur": 1.2
+    },
+    {
+     "at": 1.8,
+     "move": [
+      1010,
+      330
+     ],
+     "dur": 1.6
+    }
+   ]
+  },
+  {
+   "id": "f_prepare",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "eval": "(async()=>{const m=window.__depthReview;m.state.tutorial=4;m.start(1);await new Promise(r=>setTimeout(r,300));m.enter('0-0');})()"
+    }
+   ],
+   "settle": 1500,
+   "seconds": 3.4,
+   "mouseStart": [
+    640,
+    520
+   ],
+   "during": [
+    {
+     "at": 1.2,
+     "tapBtn": "Fight",
+     "nth": 0,
+     "lead": 0.8
+    }
+   ]
+  },
+  {
+   "id": "forge_enhance",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "click": "Forge"
+    },
+    {
+     "after": 800
+    }
+   ],
+   "settle": 800,
+   "seconds": 4.5,
+   "mouseStart": [
+    700,
+    560
+   ],
+   "during": [
+    {
+     "at": 0.8,
+     "tapBtn": "Enhance +1",
+     "exact": false,
+     "lead": 0.6
+    }
+   ]
+  },
+  {
+   "id": "economy_page",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "click": "Market"
+    }
+   ],
+   "settle": 1200,
+   "seconds": 5.5,
+   "mouseStart": [
+    900,
+    600
+   ],
+   "during": [
+    {
+     "at": 1.6,
+     "tapBtn": "fees",
+     "lead": 0.6
+    }
+   ]
+  }
+ ]
+}

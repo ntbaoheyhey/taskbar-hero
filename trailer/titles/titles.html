@@ -1,0 +1,99 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Baloo;src:url(fonts/baloo-2-latin-800-normal.woff2)format('woff2');font-weight:800}
+@font-face{font-family:Barlow;src:url(fonts/barlow-condensed-latin-700-normal.woff2)format('woff2');font-weight:700}
+@font-face{font-family:Barlow;src:url(fonts/barlow-condensed-latin-500-normal.woff2)format('woff2');font-weight:500}
+:root{--cream:#fff3dc;--gold:#ffc86f;--amber:#e78a3c;--plum:#231d35;--plum2:#3a2f52}
+html,body{margin:0;width:1920px;height:1080px;background:transparent;overflow:hidden}
+#stage{position:absolute;inset:0}
+.layer{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;will-change:transform,opacity}
+.title{font-family:Baloo;font-weight:800;font-size:178px;line-height:.92;color:var(--cream);letter-spacing:-1px;text-align:center;
+  text-shadow:0 0 28px rgba(255,190,100,.55),0 0 90px rgba(231,138,60,.45),0 8px 0 rgba(35,29,53,.85),0 18px 40px rgba(0,0,0,.6)}
+.title small{display:block;font-size:.42em;letter-spacing:10px;color:var(--gold);margin-top:18px;font-family:Barlow;font-weight:700}
+.rule{width:420px;height:3px;margin:22px auto 0;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.name{position:absolute;left:130px;bottom:150px;top:auto;right:auto;align-items:flex-start}
+.name .n{font-family:Baloo;font-weight:800;font-size:150px;line-height:.9;color:var(--cream);
+  text-shadow:0 0 30px rgba(255,190,100,.5),0 7px 0 rgba(35,29,53,.9),0 16px 40px rgba(0,0,0,.65)}
+.name .s{font-family:Barlow;font-weight:700;font-size:44px;letter-spacing:6px;text-transform:uppercase;color:var(--gold);
+  margin-top:10px;padding-left:6px;text-shadow:0 3px 10px rgba(0,0,0,.8)}
+.cap{position:absolute;left:0;right:0;top:auto;bottom:170px;align-items:center}
+.cap .c{font-family:Barlow;font-weight:700;font-size:74px;letter-spacing:4px;text-transform:uppercase;color:var(--cream);
+  padding:10px 46px 12px;background:linear-gradient(90deg,rgba(35,29,53,0),rgba(35,29,53,.82) 18%,rgba(35,29,53,.82) 82%,rgba(35,29,53,0));
+  text-shadow:0 0 22px rgba(255,190,100,.45)}
+.cap .c b{color:var(--gold);font-weight:700}
+.cap .cs{font-family:Barlow;font-weight:500;font-size:40px;letter-spacing:3px;color:var(--gold);margin-top:8px;text-shadow:0 2px 10px #000}
+.stmt .a{font-family:Baloo;font-weight:800;font-size:112px;color:var(--cream);text-shadow:0 0 30px rgba(255,190,100,.45),0 8px 30px rgba(0,0,0,.6)}
+.stmt .b{font-family:Baloo;font-weight:800;font-size:112px;color:var(--gold);margin-top:-6px;text-shadow:0 0 40px rgba(231,138,60,.6),0 8px 30px rgba(0,0,0,.6)}
+.boss{align-items:flex-start;justify-content:flex-end;padding:0 0 130px 120px;box-sizing:border-box}
+.boss .k{font-family:Barlow;font-weight:700;font-size:40px;letter-spacing:12px;color:#ffb0a0;text-shadow:0 2px 12px #000}
+.boss .n{font-family:Baloo;font-weight:800;font-size:150px;line-height:.95;color:#fff1e8;
+  text-shadow:0 0 34px rgba(255,80,60,.55),0 8px 0 rgba(30,10,20,.9),0 18px 46px rgba(0,0,0,.7)}
+.boss .s{font-family:Barlow;font-weight:500;font-size:42px;letter-spacing:4px;color:var(--gold);text-shadow:0 2px 10px #000}
+.lock .t{font-family:Baloo;font-weight:800;font-size:196px;line-height:.9;color:var(--cream);text-align:center;
+  text-shadow:0 0 30px rgba(255,190,100,.6),0 0 110px rgba(231,138,60,.5),0 9px 0 rgba(35,29,53,.85),0 20px 46px rgba(0,0,0,.6)}
+.lock .s{font-family:Barlow;font-weight:700;font-size:50px;letter-spacing:9px;text-transform:uppercase;color:var(--gold);margin-top:26px}
+.cta .t{font-family:Baloo;font-weight:800;font-size:120px;color:var(--cream);text-shadow:0 0 30px rgba(255,190,100,.5),0 8px 26px rgba(0,0,0,.6)}
+.cta .u{font-family:Barlow;font-weight:700;font-size:64px;letter-spacing:3px;color:var(--plum);background:linear-gradient(#ffc86f,#e78a3c);
+  padding:12px 44px 14px;border-radius:22px;margin-top:30px;box-shadow:0 10px 30px rgba(231,138,60,.45)}
+.cta .f{font-family:Barlow;font-weight:500;font-size:34px;letter-spacing:2px;color:#cfc3e6;margin-top:46px}
+.cta .av{font-family:Barlow;font-weight:700;font-size:38px;letter-spacing:6px;color:#ff6b6b;margin-top:22px;text-transform:uppercase}
+.lt{position:absolute;right:56px;top:48px;font-family:Barlow;font-weight:500;font-size:30px;letter-spacing:2px;color:#fff3dc;
+  background:rgba(35,29,53,.78);padding:8px 20px;border-radius:12px;border:1px solid rgba(255,200,111,.4)}
+.chain{align-items:center;justify-content:center}
+.chain .card{width:1180px;background:linear-gradient(180deg,rgba(43,35,64,.94),rgba(28,23,44,.95));border:2px solid rgba(255,200,111,.55);border-radius:34px;
+  padding:44px 56px 40px;box-shadow:0 30px 80px rgba(0,0,0,.55),0 0 60px rgba(231,138,60,.18) inset;font-family:Barlow;color:var(--cream)}
+.chain .hd{display:flex;align-items:center;gap:18px;font-weight:700;font-size:30px;letter-spacing:6px;color:#ff8a80;text-transform:uppercase}
+.chain .hd i{width:16px;height:16px;border-radius:50%;background:#ff5a5a;box-shadow:0 0 14px #ff5a5a}
+.chain .big{font-family:Baloo;font-weight:800;font-size:92px;line-height:1;margin:18px 0 6px;color:var(--cream);text-shadow:0 0 24px rgba(255,190,100,.35)}
+.chain .big b{color:var(--gold)}
+.chain .row{display:grid;grid-template-columns:270px 1fr;gap:24px;font-size:38px;font-weight:500;padding:14px 0;border-top:1px solid rgba(255,243,220,.13)}
+.chain .row span:first-child{color:#bfb2da;letter-spacing:2px;text-transform:uppercase;font-size:30px;padding-top:5px}
+.chain .row code{font-family:'DejaVu Sans Mono',monospace;font-size:31px;color:#ffd9a0}
+.chain .ft{margin-top:22px;font-size:28px;letter-spacing:2px;color:#a99cc6}
+</style></head>
+<body><div id="stage"></div>
+<script>
+// Deterministic: render(spec, t, dur) draws the overlay at time t (s) within its duration.
+const E={out:k=>1-Math.pow(1-k,3),inout:k=>k<.5?4*k*k*k:1-Math.pow(-2*k+2,3)/2,back:k=>{const c=1.9;return 1+(c+1)*Math.pow(k-1,3)+c*Math.pow(k-1,2)}};
+const cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+function fadeIO(t,dur,i=.18,o=.2){return cl(t/i)*cl((dur-t)/o)}
+function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;')}
+window.render=(spec,t,dur)=>{
+  const st=document.getElementById('stage');let h='',k;
+  const m=esc(spec.main),s=esc(spec.sub),f=esc(spec.fine);
+  switch(spec.kind){
+  case 'title':{ // slam: scale 1.25 -> 1 with glow burst, slow drift after
+    k=E.out(cl(t/.28));const sc=1.25-.25*k+.03*cl((t-.3)/(dur-.3));const op=cl(t/.08)*cl((dur-t)/.35);
+    const parts=m.split(' ');
+    h=`<div class="layer" style="opacity:${op};transform:scale(${sc})"><div class="title">Lantern<br>Cat Café</div><div class="rule" style="width:${420*E.out(cl((t-.2)/.5))}px"></div></div>`;break;}
+  case 'name':{
+    k=E.out(cl(t/.35));const op=cl(t/.12)*cl((dur-t)/.18);
+    h=`<div class="layer name" style="opacity:${op};transform:translateX(${(1-k)*-80}px)"><div class="n">${m}</div><div class="s" style="opacity:${cl((t-.15)/.3)}">${s}</div></div>`;break;}
+  case 'caption':{
+    k=E.out(cl(t/.3));const op=cl(t/.12)*cl((dur-t)/.2);
+    h=`<div class="layer cap" style="opacity:${op};transform:translateY(${(1-k)*26}px)"><div class="c">${m}</div>${s?`<div class="cs">${s}</div>`:''}</div>`;break;}
+  case 'statement':{
+    const op1=fadeIO(t,dur,.5,.4),op2=cl((t-1.6)/.4)*cl((dur-t)/.4);
+    h=`<div class="layer stmt"><div class="a" style="opacity:${op1};transform:translateY(${(1-E.out(cl(t/.8)))*20}px)">${m}</div><div class="b" style="opacity:${op2};transform:scale(${1.08-.08*E.out(cl((t-1.6)/.4))})">${s}</div></div>`;break;}
+  case 'boss':{
+    k=E.out(cl(t/.22));const op=cl(t/.06)*cl((dur-t)/.15);
+    h=`<div class="layer boss" style="opacity:${op}"><div class="k" style="opacity:${cl((t-.1)/.2)}">BOSS</div><div class="n" style="transform:translateX(${(1-k)*60}px) scale(${1.12-.12*k});transform-origin:left">${m}</div><div class="s" style="opacity:${cl((t-.2)/.25)}">${s}</div></div>`;break;}
+  case 'lockup':{
+    const op=cl(t/.6)*cl((dur-t)/.25);const sc=1.04-.04*E.out(cl(t/2));
+    h=`<div class="layer lock" style="opacity:${op};transform:scale(${sc})"><div class="t">Lantern<br>Cat Café</div><div class="s" style="opacity:${cl((t-.7)/.5)}">${s}</div></div>`;break;}
+  case 'cta':{
+    const op=cl(t/.3);
+    h=`<div class="layer cta" style="opacity:${op}"><div class="t">${m}</div><div class="u" style="opacity:${cl((t-.35)/.3)};transform:scale(${.9+.1*E.back(cl((t-.35)/.4))})">${s}</div><div class="av" style="opacity:${cl((t-.7)/.4)}">Built on Avalanche</div><div class="f" style="opacity:${cl((t-.9)/.4)}">${f}</div></div>`;break;}
+  case 'chain':{
+    const op=cl(t/.25)*cl((dur-t)/.25);const k=E.out(cl(t/.45));
+    const rows=(spec.rows||[]).map((r,i)=>`<div class="row" style="opacity:${cl((t-.45-i*.35)/.3)};transform:translateX(${(1-E.out(cl((t-.45-i*.35)/.4)))*30}px)"><span>${esc(r[0])}</span><span>${r[1]}</span></div>`).join('');
+    let big=spec.big||'';
+    if(spec.countFrom!==undefined){const v=spec.countFrom+(spec.countTo-spec.countFrom)*E.inout(cl((t-.6)/1.6));big=big.replace('{n}',v.toLocaleString('en-US',{minimumFractionDigits:spec.dp||0,maximumFractionDigits:spec.dp||0}));}
+    h=`<div class="layer chain" style="opacity:${op}"><div class="card" style="transform:translateY(${(1-k)*40}px) scale(${.96+.04*k})"><div class="hd"><i></i>${esc(spec.head)}</div><div class="big">${big}</div>${rows}<div class="ft" style="opacity:${cl((t-1.4)/.4)}">${esc(spec.foot)}</div></div></div>`;break;}
+  case 'lower':{
+    h=`<div class="lt" style="opacity:${fadeIO(t,dur,.3,.3)}">${m}</div>`;break;}
+  }
+  st.innerHTML=h;
+};
+</script></body></html>

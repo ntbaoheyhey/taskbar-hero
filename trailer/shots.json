@@ -1,0 +1,505 @@
+{
+ "url": "/?demo=1&squad=1&cardrpg2=1&a6=1&dev=1",
+ "storage": {
+  "lantern.coach.v3": "{\"disabled\":true}",
+  "lantern.entered.v3": "1",
+  "lantern-story-seen": "[\"opening\",\"ch1-intro\",\"ch1-boss\",\"ch1-clear\",\"ch2-intro\",\"ch2-boss\",\"ch2-clear\",\"ch3-intro\",\"ch3-boss\",\"ending\"]"
+ },
+ "shots": [
+  {
+   "id": "landing_night_push",
+   "storage": {
+    "lantern.entered.v3": "0"
+   },
+   "prep": [
+    {
+     "waitFor": "!!document.querySelector('button')"
+    }
+   ],
+   "settle": 3000,
+   "seconds": 3.4
+  },
+  {
+   "id": "cafe_home",
+   "prep": [
+    {
+     "waitFor": "[...document.querySelectorAll('button')].some(b=>/Fight/.test(b.textContent))"
+    }
+   ],
+   "settle": 3000,
+   "seconds": 4.5
+  },
+  {
+   "id": "battle_ch1",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "eval": "(async()=>{const m=window.__depthReview;m.state.tutorial=4;m.state.cleared=[1,2];m.start(1);await new Promise(r=>setTimeout(r,300));m.state.run.visited=[];m.enter('0-0');await new Promise(r=>setTimeout(r,800));})()"
+    },
+    {
+     "click": "Fight",
+     "nth": 0
+    },
+    {
+     "waitFor": "window.__depthReview.sceneReady===true"
+    }
+   ],
+   "settle": 200,
+   "seconds": 8
+  },
+  {
+   "id": "battle_tap_ult",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "eval": "(async()=>{const m=window.__depthReview;m.state.tutorial=4;m.state.cleared=[1,2];m.start(1);await new Promise(r=>setTimeout(r,300));m.state.run.visited=[];m.enter('0-0');await new Promise(r=>setTimeout(r,800));})()"
+    },
+    {
+     "click": "Fight",
+     "nth": 0
+    },
+    {
+     "waitFor": "window.__depthReview.sceneReady===true"
+    }
+   ],
+   "settle": 200,
+   "preroll": 1.5,
+   "seconds": 5.5,
+   "mouseStart": [
+    900,
+    560
+   ],
+   "during": [
+    {
+     "at": 0.2,
+     "move": [
+      509,
+      675
+     ],
+     "dur": 0.8
+    },
+    {
+     "at": 1.4,
+     "clickAt": [
+      509,
+      675
+     ]
+    },
+    {
+     "at": 2.4,
+     "hideCursor": true
+    }
+   ]
+  },
+  {
+   "id": "soot_ult",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "eval": "(async()=>{const m=window.__depthReview;m.state.tutorial=4;m.state.cleared=[1,2];m.start(1);await new Promise(r=>setTimeout(r,300));m.state.run.visited=[];m.enter('0-0');await new Promise(r=>setTimeout(r,800));})()"
+    },
+    {
+     "click": "Fight",
+     "nth": 0
+    },
+    {
+     "waitFor": "window.__depthReview.sceneReady===true"
+    }
+   ],
+   "settle": 200,
+   "preroll": 1.0,
+   "seconds": 4.5,
+   "during": [
+    {
+     "at": 0.1,
+     "clickAt": [
+      595,
+      675
+     ]
+    },
+    {
+     "at": 0.15,
+     "hideCursor": true
+    }
+   ]
+  },
+  {
+   "id": "clover_ult",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "eval": "(async()=>{const m=window.__depthReview;m.state.tutorial=4;m.state.cleared=[1,2];m.start(1);await new Promise(r=>setTimeout(r,300));m.state.run.visited=[];m.enter('0-0');await new Promise(r=>setTimeout(r,800));})()"
+    },
+    {
+     "click": "Fight",
+     "nth": 0
+    },
+    {
+     "waitFor": "window.__depthReview.sceneReady===true"
+    }
+   ],
+   "settle": 200,
+   "preroll": 2.0,
+   "seconds": 4.5,
+   "during": [
+    {
+     "at": 0.1,
+     "clickAt": [
+      682,
+      675
+     ]
+    },
+    {
+     "at": 0.15,
+     "hideCursor": true
+    }
+   ]
+  },
+  {
+   "id": "battle_victory",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "eval": "(async()=>{const m=window.__depthReview;m.state.tutorial=4;m.state.cleared=[1,2];m.start(1);await new Promise(r=>setTimeout(r,300));m.state.run.visited=[];m.enter('0-0');await new Promise(r=>setTimeout(r,800));})()"
+    },
+    {
+     "click": "Fight",
+     "nth": 0
+    },
+    {
+     "waitFor": "window.__depthReview.sceneReady===true"
+    }
+   ],
+   "settle": 200,
+   "seconds": 4.5,
+   "during": [
+    {
+     "at": 0.1,
+     "click": "Skip to result"
+    }
+   ]
+  },
+  {
+   "id": "boss_ch1",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "eval": "(async()=>{const m=window.__depthReview;m.state.tutorial=4;m.state.cleared=[1,2];m.start(1);await new Promise(r=>setTimeout(r,300));m.state.run.visited=[\"0-0\", \"1-0\", \"2-0\", \"3-0\", \"4-0\", \"5-0\"];m.enter('6-0');await new Promise(r=>setTimeout(r,800));})()"
+    },
+    {
+     "click": "Fight",
+     "nth": 0
+    },
+    {
+     "waitFor": "window.__depthReview.sceneReady===true"
+    }
+   ],
+   "settle": 200,
+   "seconds": 9,
+   "during": [
+    {
+     "at": 3.0,
+     "clickAt": [
+      595,
+      675
+     ]
+    },
+    {
+     "at": 3.05,
+     "hideCursor": true
+    },
+    {
+     "at": 6.0,
+     "clickAt": [
+      509,
+      675
+     ]
+    },
+    {
+     "at": 6.05,
+     "hideCursor": true
+    }
+   ]
+  },
+  {
+   "id": "boss_ch2",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "eval": "(async()=>{const m=window.__depthReview;m.state.tutorial=4;m.state.cleared=[1,2];m.start(2);await new Promise(r=>setTimeout(r,300));m.state.run.visited=[\"0-0\", \"1-0\", \"2-0\", \"3-0\", \"4-0\", \"5-0\"];m.enter('6-0');await new Promise(r=>setTimeout(r,800));})()"
+    },
+    {
+     "click": "Fight",
+     "nth": 0
+    },
+    {
+     "waitFor": "window.__depthReview.sceneReady===true"
+    }
+   ],
+   "settle": 200,
+   "seconds": 9,
+   "during": [
+    {
+     "at": 3.0,
+     "clickAt": [
+      682,
+      675
+     ]
+    },
+    {
+     "at": 3.05,
+     "hideCursor": true
+    },
+    {
+     "at": 6.0,
+     "clickAt": [
+      595,
+      675
+     ]
+    },
+    {
+     "at": 6.05,
+     "hideCursor": true
+    }
+   ]
+  },
+  {
+   "id": "boss_ch3",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "eval": "(async()=>{const m=window.__depthReview;m.state.tutorial=4;m.state.cleared=[1,2];m.start(3);await new Promise(r=>setTimeout(r,300));m.state.run.visited=[\"0-0\", \"1-0\", \"2-0\", \"3-0\", \"4-0\", \"5-0\"];m.enter('6-0');await new Promise(r=>setTimeout(r,800));})()"
+    },
+    {
+     "click": "Fight",
+     "nth": 0
+    },
+    {
+     "waitFor": "window.__depthReview.sceneReady===true"
+    }
+   ],
+   "settle": 200,
+   "seconds": 9,
+   "during": [
+    {
+     "at": 3.0,
+     "clickAt": [
+      509,
+      675
+     ]
+    },
+    {
+     "at": 3.05,
+     "hideCursor": true
+    },
+    {
+     "at": 6.0,
+     "clickAt": [
+      595,
+      675
+     ]
+    },
+    {
+     "at": 6.05,
+     "hideCursor": true
+    }
+   ]
+  },
+  {
+   "id": "route_map_ch1",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "eval": "(()=>{const m=window.__depthReview;m.state.tutorial=4;m.start(1);})()"
+    }
+   ],
+   "settle": 800,
+   "seconds": 5.6,
+   "mouseStart": [
+    640,
+    600
+   ],
+   "during": [
+    {
+     "at": 0.3,
+     "move": [
+      420,
+      420
+     ],
+     "dur": 1.2
+    },
+    {
+     "at": 1.8,
+     "move": [
+      640,
+      360
+     ],
+     "dur": 1.0
+    }
+   ]
+  },
+  {
+   "id": "event_card",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "eval": "(async()=>{const m=window.__depthReview;m.state.tutorial=4;m.start(1);await new Promise(r=>setTimeout(r,300));m.state.run.visited=['0-0'];m.enter('1-0');})()"
+    }
+   ],
+   "settle": 800,
+   "seconds": 3.4
+  },
+  {
+   "id": "cats_mochi",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "click": "Cats"
+    },
+    {
+     "after": 800
+    },
+    {
+     "click": "Mochi, melee",
+     "exact": false
+    }
+   ],
+   "settle": 800,
+   "seconds": 3.2
+  },
+  {
+   "id": "cats_clover",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "click": "Cats"
+    },
+    {
+     "after": 800
+    },
+    {
+     "click": "Clover, healer",
+     "exact": false
+    }
+   ],
+   "settle": 800,
+   "seconds": 3.2
+  },
+  {
+   "id": "cats_soot",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "click": "Cats"
+    },
+    {
+     "after": 800
+    },
+    {
+     "click": "Soot, ranged",
+     "exact": false
+    }
+   ],
+   "settle": 800,
+   "seconds": 3.2
+  },
+  {
+   "id": "cats_journal",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "click": "Cats"
+    },
+    {
+     "after": 800
+    },
+    {
+     "click": "Journal"
+    }
+   ],
+   "settle": 800,
+   "seconds": 3.2
+  },
+  {
+   "id": "forge_enhance",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "click": "Forge"
+    },
+    {
+     "after": 800
+    }
+   ],
+   "settle": 800,
+   "seconds": 4.5,
+   "mouseStart": [
+    700,
+    500
+   ],
+   "during": [
+    {
+     "at": 0.3,
+     "move": [
+      700,
+      500
+     ],
+     "dur": 0.1
+    }
+   ]
+  },
+  {
+   "id": "economy_page",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "click": "Market"
+    }
+   ],
+   "settle": 1200,
+   "seconds": 5.5,
+   "mouseStart": [
+    900,
+    600
+   ],
+   "during": [
+    {
+     "at": 2.0,
+     "click": "fees"
+    }
+   ]
+  }
+ ]
+}

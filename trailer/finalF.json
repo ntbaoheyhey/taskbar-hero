@@ -1,0 +1,88 @@
+{
+ "url": "/?demo=1&squad=1&cardrpg2=1&a6=1&dev=1",
+ "storage": {
+  "lantern.coach.v3": "{\"disabled\":true}",
+  "lantern.entered.v3": "1",
+  "lantern-story-seen": "[\"opening\",\"ch1-intro\",\"ch1-boss\",\"ch1-clear\",\"ch2-intro\",\"ch2-boss\",\"ch2-clear\",\"ch3-intro\",\"ch3-boss\",\"ending\"]"
+ },
+ "shots": [
+  {
+   "id": "bag_equip",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "click": "Forge"
+    },
+    {
+     "after": 900
+    }
+   ],
+   "settle": 800,
+   "seconds": 4.2,
+   "mouseStart": [
+    700,
+    600
+   ],
+   "during": [
+    {
+     "at": 0.2,
+     "move": [
+      405,
+      395
+     ],
+     "dur": 0.5
+    },
+    {
+     "at": 0.85,
+     "clickAt": [
+      405,
+      395
+     ]
+    },
+    {
+     "at": 1.5,
+     "tapBtn": "Equip",
+     "exact": true,
+     "lead": 0.6
+    }
+   ]
+  },
+  {
+   "id": "forge_enhance2",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "click": "Forge"
+    },
+    {
+     "after": 800
+    }
+   ],
+   "settle": 800,
+   "seconds": 5.5,
+   "mouseStart": [
+    700,
+    560
+   ],
+   "during": [
+    {
+     "at": 0.5,
+     "tapBtn": "Enhance +1",
+     "exact": false,
+     "lead": 0.5
+    },
+    {
+     "at": 2.2,
+     "tapBtn": "Enhance",
+     "exact": false,
+     "nth": -1,
+     "lead": 0.6
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,216 @@
+{
+ "url": "/?demo=1&squad=1&cardrpg2=1&a6=1&dev=1",
+ "storage": {
+  "lantern.coach.v3": "{\"disabled\":true}",
+  "lantern.entered.v3": "1",
+  "lantern-story-seen": "[\"opening\",\"ch1-intro\",\"ch1-boss\",\"ch1-clear\",\"ch2-intro\",\"ch2-boss\",\"ch2-clear\",\"ch3-intro\",\"ch3-boss\",\"ending\"]"
+ },
+ "shots": [
+  {
+   "id": "f_ch1_battle",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "eval": "(async()=>{const m=window.__depthReview;m.state.tutorial=4;m.state.cleared=[1,2];m.start(1);await new Promise(r=>setTimeout(r,300));m.state.run.visited=[];m.enter('0-0');await new Promise(r=>setTimeout(r,800));const b=m.battle;})()"
+    },
+    {
+     "click": "Fight",
+     "nth": 0
+    },
+    {
+     "waitFor": "window.__depthReview.sceneReady===true"
+    }
+   ],
+   "settle": 200,
+   "seconds": 6
+  },
+  {
+   "id": "f_boss2",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "eval": "(async()=>{const m=window.__depthReview;m.state.tutorial=4;m.state.cleared=[1,2];m.start(2);await new Promise(r=>setTimeout(r,300));m.state.run.visited=[\"0-0\", \"1-0\", \"2-0\", \"3-0\", \"4-0\", \"5-0\"];m.enter('6-0');await new Promise(r=>setTimeout(r,800));const b=m.battle;for(const a of (b.actors||[]))if(a.side==='party')a.charge=100;})()"
+    },
+    {
+     "click": "Fight",
+     "nth": 0
+    },
+    {
+     "waitFor": "window.__depthReview.sceneReady===true"
+    }
+   ],
+   "settle": 200,
+   "seconds": 10,
+   "mouseStart": [
+    900,
+    520
+   ],
+   "during": [
+    {
+     "at": 0.20000000000000007,
+     "move": [
+      682,
+      665
+     ],
+     "dur": 0.5
+    },
+    {
+     "at": 0.8,
+     "clickAt": [
+      682,
+      665
+     ]
+    },
+    {
+     "at": 1.15,
+     "hideCursor": true
+    },
+    {
+     "at": 2.9,
+     "move": [
+      598,
+      665
+     ],
+     "dur": 0.5
+    },
+    {
+     "at": 3.5,
+     "clickAt": [
+      598,
+      665
+     ]
+    },
+    {
+     "at": 3.85,
+     "hideCursor": true
+    },
+    {
+     "at": 5.4,
+     "move": [
+      512,
+      665
+     ],
+     "dur": 0.5
+    },
+    {
+     "at": 6.0,
+     "clickAt": [
+      512,
+      665
+     ]
+    },
+    {
+     "at": 6.35,
+     "hideCursor": true
+    }
+   ]
+  },
+  {
+   "id": "f_boss3",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "eval": "(async()=>{const m=window.__depthReview;m.state.tutorial=4;m.state.cleared=[1,2];m.start(3);await new Promise(r=>setTimeout(r,300));m.state.run.visited=[\"0-0\", \"1-0\", \"2-0\", \"3-0\", \"4-0\", \"5-0\"];m.enter('6-0');await new Promise(r=>setTimeout(r,800));const b=m.battle;for(const a of (b.actors||[]))if(a.side==='party')a.charge=100;})()"
+    },
+    {
+     "click": "Fight",
+     "nth": 0
+    },
+    {
+     "waitFor": "window.__depthReview.sceneReady===true"
+    }
+   ],
+   "settle": 200,
+   "seconds": 10,
+   "mouseStart": [
+    900,
+    520
+   ],
+   "during": [
+    {
+     "at": 0.20000000000000007,
+     "move": [
+      512,
+      665
+     ],
+     "dur": 0.5
+    },
+    {
+     "at": 0.8,
+     "clickAt": [
+      512,
+      665
+     ]
+    },
+    {
+     "at": 1.15,
+     "hideCursor": true
+    },
+    {
+     "at": 2.9,
+     "move": [
+      598,
+      665
+     ],
+     "dur": 0.5
+    },
+    {
+     "at": 3.5,
+     "clickAt": [
+      598,
+      665
+     ]
+    },
+    {
+     "at": 3.85,
+     "hideCursor": true
+    },
+    {
+     "at": 5.4,
+     "move": [
+      682,
+      665
+     ],
+     "dur": 0.5
+    },
+    {
+     "at": 6.0,
+     "clickAt": [
+      682,
+      665
+     ]
+    },
+    {
+     "at": 6.35,
+     "hideCursor": true
+    }
+   ]
+  },
+  {
+   "id": "f_boss1_win",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "eval": "(async()=>{const m=window.__depthReview;m.state.tutorial=4;m.state.cleared=[1,2];m.start(1);await new Promise(r=>setTimeout(r,300));m.state.run.visited=[\"0-0\", \"1-0\", \"2-0\", \"3-0\", \"4-0\", \"5-0\"];m.enter('6-0');await new Promise(r=>setTimeout(r,800));const b=m.battle;for(const a of (b.actors||[]))if(a.side==='party')a.charge=100;for(const a of (b.actors||[]))if(a.side!=='party')a.hp=Math.min(a.hp,25);})()"
+    },
+    {
+     "click": "Fight",
+     "nth": 0
+    },
+    {
+     "waitFor": "window.__depthReview.sceneReady===true"
+    }
+   ],
+   "settle": 200,
+   "seconds": 9
+  }
+ ]
+}

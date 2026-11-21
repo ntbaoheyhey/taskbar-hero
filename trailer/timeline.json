@@ -1,0 +1,851 @@
+{
+ "bpm": 96,
+ "beat": 0.625,
+ "bar": 2.5,
+ "length": 120.0,
+ "sections": [
+  {
+   "id": "cold_open",
+   "t0": 0.0,
+   "t1": 7.5,
+   "purpose": "Hook: the last lit cafe, the Tangle, one ultimate, title",
+   "music": "B minor. Rain, celesta music-box motif over a dark pad; BOOM on Soot's ultimate (bar 2); 2 beats of silence; title hit on bar 3."
+  },
+  {
+   "id": "premise",
+   "t0": 7.5,
+   "t1": 20.0,
+   "purpose": "World + the three heroes + the collection",
+   "music": "D major cafe groove: pizzicato, harp, celesta theme, brushed percussion."
+  },
+  {
+   "id": "core_loop",
+   "t0": 20.0,
+   "t1": 40.0,
+   "purpose": "What you do: route map, story choices, battle, manual ultimates, win",
+   "music": "Adds drums, string ostinato and brass punches; theme on flute/strings."
+  },
+  {
+   "id": "progression",
+   "t0": 40.0,
+   "t1": 55.0,
+   "purpose": "Gear drops, equip, Forge, three chapters",
+   "music": "Bright full theme, glockenspiel sparkles on every reward."
+  },
+  {
+   "id": "ownership",
+   "t0": 55.0,
+   "t1": 75.0,
+   "purpose": "Economy: earned by play, sealed on Avalanche, traded, YARN burned",
+   "music": "Breakdown: piano + warm pad + soft pulse, room for the voice."
+  },
+  {
+   "id": "climax",
+   "t0": 75.0,
+   "t1": 105.0,
+   "purpose": "Three bosses, ultimate montage, stop-down, final blow",
+   "music": "B minor epic: 16th-note low strings, taiko, brass, choir; silence on bar 39; tutti D major from bar 40."
+  },
+  {
+   "id": "resolve",
+   "t0": 105.0,
+   "t1": 120.0,
+   "purpose": "Cafe warm again, title lockup, call to action",
+   "music": "Theme reprise on music box + strings, final chord rings out."
+  }
+ ],
+ "shots": [
+  {
+   "id": "s01",
+   "t0": 0.0,
+   "t1": 2.5,
+   "src": "landing_night_push",
+   "tr": "fade_from_black",
+   "note": "Slow push on the landing art: the cafe at night, lantern glow."
+  },
+  {
+   "id": "s02",
+   "t0": 2.5,
+   "t1": 5.0,
+   "src": "tangle_closeup",
+   "tr": "cut",
+   "note": "Tangle enemies (Needle Moth / Sock Skipper) close, dim, menacing; slow push."
+  },
+  {
+   "id": "s03",
+   "t0": 5.0,
+   "t1": 6.875,
+   "src": "soot_ult_cutin",
+   "tr": "hard_cut_flash",
+   "note": "HIT on bar 2: Soot's 'Chimney Comet' cut-in fills the frame."
+  },
+  {
+   "id": "s04",
+   "t0": 6.875,
+   "t1": 7.5,
+   "src": "card:black",
+   "tr": "cut",
+   "note": "Two beats of black + silence before the title."
+  },
+  {
+   "id": "s05",
+   "t0": 7.5,
+   "t1": 11.25,
+   "src": "cafe_home",
+   "tr": "title_slam",
+   "text": {
+    "kind": "title",
+    "main": "LANTERN CAT CAFÉ"
+   },
+   "note": "Title slam over the living cafe home."
+  },
+  {
+   "id": "s06",
+   "t0": 11.25,
+   "t1": 13.75,
+   "src": "mochi_idle",
+   "tr": "whip",
+   "text": {
+    "kind": "name",
+    "main": "MOCHI",
+    "sub": "Guards the team"
+   }
+  },
+  {
+   "id": "s07",
+   "t0": 13.75,
+   "t1": 16.25,
+   "src": "clover_idle",
+   "tr": "whip",
+   "text": {
+    "kind": "name",
+    "main": "CLOVER",
+    "sub": "Keeps everyone standing"
+   }
+  },
+  {
+   "id": "s08",
+   "t0": 16.25,
+   "t1": 18.75,
+   "src": "soot_idle",
+   "tr": "whip",
+   "text": {
+    "kind": "name",
+    "main": "SOOT",
+    "sub": "Lands the final blow"
+   }
+  },
+  {
+   "id": "s09",
+   "t0": 18.75,
+   "t1": 20.0,
+   "src": "collection_12",
+   "tr": "cut",
+   "text": {
+    "kind": "caption",
+    "main": "12 cats to befriend"
+   }
+  },
+  {
+   "id": "s10",
+   "t0": 20.0,
+   "t1": 25.0,
+   "src": "route_map_ch1",
+   "tr": "cut",
+   "text": {
+    "kind": "caption",
+    "main": "Choose your route"
+   },
+   "note": "Route map: battle, event, elite, treasure, shop, campfire, boss. Cursor picks a node."
+  },
+  {
+   "id": "s11",
+   "t0": 25.0,
+   "t1": 27.5,
+   "src": "event_card",
+   "tr": "cut",
+   "note": "Prepare screen: formation set, cursor taps Fight."
+  },
+  {
+   "id": "s12",
+   "t0": 27.5,
+   "t1": 30.0,
+   "src": "battle_wave_start",
+   "tr": "cut",
+   "note": "Battle opens: wave banner, cats advance."
+  },
+  {
+   "id": "s13",
+   "t0": 30.0,
+   "t1": 32.5,
+   "src": "battle_auto",
+   "tr": "cut",
+   "note": "Auto attacks, hit sparks, damage numbers."
+  },
+  {
+   "id": "s14",
+   "t0": 32.5,
+   "t1": 35.0,
+   "src": "battle_tap_ult",
+   "tr": "cut",
+   "text": {
+    "kind": "caption",
+    "main": "Time your ultimates"
+   },
+   "note": "Cursor taps Mochi's portrait (TAP badge) to queue the ultimate."
+  },
+  {
+   "id": "s15",
+   "t0": 35.0,
+   "t1": 37.5,
+   "src": "mochi_ult",
+   "tr": "cut",
+   "note": "Mochi's 'Last Lantern Vow' lands on the downbeat."
+  },
+  {
+   "id": "s16",
+   "t0": 37.5,
+   "t1": 40.0,
+   "src": "battle_victory",
+   "tr": "cut",
+   "note": "Victory."
+  },
+  {
+   "id": "s17",
+   "t0": 40.0,
+   "t1": 43.75,
+   "src": "gear_drop",
+   "tr": "flash",
+   "text": {
+    "kind": "caption",
+    "main": "Every win can drop gear"
+   },
+   "note": "Gear drop reveal with rarity glow."
+  },
+  {
+   "id": "s18",
+   "t0": 43.75,
+   "t1": 47.5,
+   "src": "equip_gear",
+   "tr": "cut",
+   "note": "Equip the new piece on a cat (Team / Bag)."
+  },
+  {
+   "id": "s19",
+   "t0": 47.5,
+   "t1": 51.25,
+   "src": "forge_enhance",
+   "tr": "cut",
+   "text": {
+    "kind": "caption",
+    "main": "Forge it stronger"
+   },
+   "note": "Forge enhance panel, stat goes up."
+  },
+  {
+   "id": "s20",
+   "t0": 51.25,
+   "t1": 55.0,
+   "src": "chapters_123",
+   "tr": "cut",
+   "text": {
+    "kind": "caption",
+    "main": "3 chapters · 3 bosses"
+   },
+   "note": "In-game chapter intro story cards: Tangled Cafe, Rooftop Orchard, Midnight Pantry (1.25 s each)."
+  },
+  {
+   "id": "s21",
+   "t0": 55.0,
+   "t1": 60.0,
+   "src": "card:earned",
+   "tr": "dip_to_dark",
+   "text": {
+    "kind": "statement",
+    "main": "Power is earned by playing.",
+    "sub": "Never bought."
+   },
+   "note": "Calm statement card over a soft-focus cafe plate."
+  },
+  {
+   "id": "s22",
+   "t0": 60.0,
+   "t1": 65.0,
+   "src": "seal_gear_nft",
+   "tr": "cut",
+   "text": {
+    "kind": "chain",
+    "head": "Live on Avalanche Fuji",
+    "big": "Seal · <b>2 YARN</b> burned",
+    "rows": [
+     [
+      "Method",
+      "<code>seal(bytes32 intent, uint256 amount)</code>"
+     ],
+     [
+      "Sent to",
+      "<code>0x0000…0000</code> &nbsp;(burned)"
+     ],
+     [
+      "Tx",
+      "<code>0xdcd5ced1…4d80e53f</code>"
+     ]
+    ],
+    "foot": "testnet.snowtrace.io · YARN 0x3ae1…2d6b · testnet tokens, no real-world value"
+   },
+   "note": "Real Fuji proof card: a gear seal that burned 2 YARN (tx on Snowtrace) over the Forge."
+  },
+  {
+   "id": "s23",
+   "t0": 65.0,
+   "t1": 70.0,
+   "src": "relic_market",
+   "tr": "cut",
+   "text": {
+    "kind": "chain",
+    "head": "Relic Market · live on Fuji",
+    "big": "Sold for <b>1.23 YARN</b>",
+    "rows": [
+     [
+      "Method",
+      "<code>buy(uint256 id)</code>"
+     ],
+     [
+      "Fee burned",
+      "<code>0.0247 YARN</code> &nbsp;(2% of the sale)"
+     ],
+     [
+      "Tx",
+      "<code>0xb0240565…0120b273</code>"
+     ]
+    ],
+    "foot": "RelicMarketV2 0x6Fe4…7eb4 · Avalanche Fuji testnet"
+   },
+   "note": "Real Fuji proof card: a Relic Market sale and its 2% fee burn."
+  },
+  {
+   "id": "s24",
+   "t0": 70.0,
+   "t1": 75.0,
+   "src": "yarn_burn_explorer",
+   "tr": "cut",
+   "text": {
+    "kind": "chain",
+    "head": "YARN · fixed supply",
+    "big": "{n} <b>YARN</b>",
+    "countFrom": 1000000000,
+    "countTo": 999999997.98,
+    "dp": 2,
+    "rows": [
+     [
+      "Minted once",
+      "1,000,000,000 at genesis · no mint function"
+     ],
+     [
+      "Burned so far",
+      "2.02 YARN by seals and market fees"
+     ]
+    ],
+    "foot": "Player payouts are paced to burns · read live from Fuji, 20 Nov 2026"
+   },
+   "note": "YARN total supply counting down from 1,000,000,000 to the live figure."
+  },
+  {
+   "id": "s25",
+   "t0": 75.0,
+   "t1": 77.5,
+   "src": "boss_yarn_giant",
+   "tr": "flash",
+   "text": {
+    "kind": "boss",
+    "main": "THE YARN GIANT",
+    "sub": "Chapter 1 · Tangled Café"
+   }
+  },
+  {
+   "id": "s26",
+   "t0": 77.5,
+   "t1": 80.0,
+   "src": "boss_rain_spool",
+   "tr": "flash",
+   "text": {
+    "kind": "boss",
+    "main": "THE RAIN SPOOL",
+    "sub": "Chapter 2 · Rooftop Orchard"
+   }
+  },
+  {
+   "id": "s27",
+   "t0": 80.0,
+   "t1": 82.5,
+   "src": "boss_pantry_crown",
+   "tr": "flash",
+   "text": {
+    "kind": "boss",
+    "main": "THE PANTRY CROWN",
+    "sub": "Chapter 3 · Midnight Pantry"
+   }
+  },
+  {
+   "id": "s28",
+   "t0": 82.5,
+   "t1": 83.75,
+   "src": "m_clover_ult",
+   "tr": "cut"
+  },
+  {
+   "id": "s29",
+   "t0": 83.75,
+   "t1": 85.0,
+   "src": "m_boss_attack",
+   "tr": "cut"
+  },
+  {
+   "id": "s30",
+   "t0": 85.0,
+   "t1": 86.25,
+   "src": "m_mochi_block",
+   "tr": "cut"
+  },
+  {
+   "id": "s31",
+   "t0": 86.25,
+   "t1": 87.5,
+   "src": "m_soot_crit",
+   "tr": "cut"
+  },
+  {
+   "id": "s32",
+   "t0": 87.5,
+   "t1": 88.75,
+   "src": "m_rain_spool_attack",
+   "tr": "cut"
+  },
+  {
+   "id": "s33",
+   "t0": 88.75,
+   "t1": 90.0,
+   "src": "m_clover_heal",
+   "tr": "cut"
+  },
+  {
+   "id": "s34",
+   "t0": 90.0,
+   "t1": 91.25,
+   "src": "m_pantry_crown_attack",
+   "tr": "cut"
+  },
+  {
+   "id": "s35",
+   "t0": 91.25,
+   "t1": 92.5,
+   "src": "m_mochi_ult",
+   "tr": "cut"
+  },
+  {
+   "id": "s36",
+   "t0": 92.5,
+   "t1": 97.5,
+   "src": "boss_final_pressure",
+   "tr": "cut",
+   "note": "Riser: the final boss winds up, team HP low, Clover heals just in time."
+  },
+  {
+   "id": "s37",
+   "t0": 97.5,
+   "t1": 100.0,
+   "src": "soot_portrait_freeze",
+   "tr": "cut",
+   "note": "STOP-DOWN: frozen frame on Soot's ultimate portrait, desaturated, silence + whisper."
+  },
+  {
+   "id": "s38",
+   "t0": 100.0,
+   "t1": 103.75,
+   "src": "soot_ult_final",
+   "tr": "flash",
+   "note": "Final blow: Chimney Comet hits the boss on bar 40."
+  },
+  {
+   "id": "s39",
+   "t0": 103.75,
+   "t1": 105.0,
+   "src": "chapter_clear",
+   "tr": "cut",
+   "note": "Boss defeated / chapter clear."
+  },
+  {
+   "id": "s40",
+   "t0": 105.0,
+   "t1": 110.0,
+   "src": "cafe_home_warm",
+   "tr": "crossfade",
+   "note": "Back at the cafe, warm light, cats idle together."
+  },
+  {
+   "id": "s41",
+   "t0": 110.0,
+   "t1": 115.0,
+   "src": "card:lockup",
+   "tr": "crossfade",
+   "text": {
+    "kind": "lockup",
+    "main": "LANTERN CAT CAFÉ",
+    "sub": "A cosy card RPG on Avalanche"
+   }
+  },
+  {
+   "id": "s42",
+   "t0": 115.0,
+   "t1": 120.0,
+   "src": "card:cta",
+   "tr": "cut",
+   "text": {
+    "kind": "cta",
+    "main": "Play free in your browser",
+    "sub": "taskbarhero-eight.vercel.app",
+    "fine": "Avalanche Fuji testnet · YARN and NFTs have no real-world value"
+   }
+  }
+ ],
+ "lower_thirds": [
+  {
+   "t0": 60.0,
+   "t1": 75.0,
+   "text": "Avalanche Fuji testnet · no real-world value"
+  }
+ ],
+ "vo": [
+  {
+   "id": "vo01",
+   "t0": 0.1875,
+   "max": 2.4,
+   "text": "Every unfinished task... goes somewhere.",
+   "tone": "Hushed, close to the mic, slow. Like telling a secret at night.",
+   "emphasis": "unfinished",
+   "cue": "Rain ambience; celesta motif starts under you."
+  },
+  {
+   "id": "vo02",
+   "t0": 2.625,
+   "max": 2.3,
+   "text": "Out here, they knot together.",
+   "tone": "Still hushed, a little ominous. Slow down on 'knot together'.",
+   "emphasis": "knots",
+   "cue": "Tangle close-up. Finish before the BOOM at 0:05.0."
+  },
+  {
+   "id": "vo03",
+   "t0": 10.3125,
+   "max": 6.5,
+   "text": "One café still keeps its lantern lit... and its cats intend to keep it that way.",
+   "tone": "Warm, smiling, storyteller. Medium pace.",
+   "emphasis": "lantern lit / its cats",
+   "cue": "Starts just after the title slam settles; ends as Clover appears."
+  },
+  {
+   "id": "vo04",
+   "t0": 20.1875,
+   "max": 5.8,
+   "text": "Choose your path: battles, strange encounters, treasure... and a boss at the end.",
+   "tone": "Brisk and inviting. Lift on 'treasure', small pause, then drop on 'boss'.",
+   "emphasis": "boss",
+   "cue": "Route map on screen; drums enter at 0:20."
+  },
+  {
+   "id": "vo05",
+   "t0": 27.6875,
+   "max": 4.6,
+   "text": "Your cats fight on their own. You decide when they unleash their ultimates.",
+   "tone": "Confident, a grin in the voice.",
+   "emphasis": "You decide",
+   "cue": "Hit 'ultimates' as the cursor taps the portrait (0:32.5)."
+  },
+  {
+   "id": "vo06",
+   "t0": 40.1875,
+   "max": 7.2,
+   "text": "Every victory can drop new gear. Equip it, forge it stronger, and push into the next chapter.",
+   "tone": "Upbeat, building. Three clear beats: equip / forge / push.",
+   "emphasis": "new gear / next chapter",
+   "cue": "Glockenspiel sparkle on the drop at 0:40."
+  },
+  {
+   "id": "vo07",
+   "t0": 55.1875,
+   "max": 4.2,
+   "text": "Here, power is earned by playing. Never bought.",
+   "tone": "Calm, sincere, slower. Full stop before 'Never bought'.",
+   "emphasis": "earned / Never",
+   "cue": "Music drops to piano; this is the honest moment."
+  },
+  {
+   "id": "vo08",
+   "t0": 60.125,
+   "max": 5.45,
+   "text": "But when a piece of gear matters to you, seal it on Avalanche. Now it's truly yours.",
+   "tone": "Calm, clear, a little proud on 'truly yours'.",
+   "emphasis": "Avalanche / yours",
+   "cue": "Seal animation on screen."
+  },
+  {
+   "id": "vo09",
+   "t0": 65.625,
+   "max": 2.9,
+   "text": "Keep it, or trade it on the Relic Market.",
+   "tone": "Light, matter-of-fact.",
+   "emphasis": "trade",
+   "cue": "Market panel."
+  },
+  {
+   "id": "vo10",
+   "t0": 69.0,
+   "max": 6.0,
+   "text": "Seals burn YARN, a fixed-supply token... and every sale burns part of its fee.",
+   "tone": "Precise, confident, not salesy. Steady pace.",
+   "emphasis": "burn / fixed-supply / every sale",
+   "cue": "Starts on the market card and carries into the supply counter. No hype here."
+  },
+  {
+   "id": "vo11",
+   "t0": 75.125,
+   "max": 2.2,
+   "text": "But the Tangle is growing.",
+   "tone": "Darker, lower, slower. Let it hang.",
+   "emphasis": "growing",
+   "cue": "Over the Yarn Giant reveal; music turns to B minor."
+  },
+  {
+   "id": "vo12",
+   "t0": 97.875,
+   "max": 1.4,
+   "text": "Light the lantern.",
+   "tone": "Whisper-intense, close mic. The only sound in the silence.",
+   "emphasis": "lantern",
+   "cue": "Total silence bar (1:37.5). End before 1:39.4; the hit lands at 1:40.0."
+  },
+  {
+   "id": "vo13",
+   "t0": 105.375,
+   "max": 8.0,
+   "text": "Lantern Cat Café. A cosy card RPG... where the light you protect is yours to keep.",
+   "tone": "Warm, proud, slower. Small pause after 'card RPG'. Smile on 'yours to keep'.",
+   "emphasis": "Lantern Cat Café / yours to keep",
+   "cue": "Back in the warm cafe; lockup appears at 1:50."
+  },
+  {
+   "id": "vo14",
+   "t0": 115.25,
+   "max": 2.6,
+   "text": "Play free in your browser.",
+   "tone": "Friendly, direct, like an invitation.",
+   "emphasis": "free",
+   "cue": "CTA card. Finish before the final chord fades."
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.0,
+   "kind": "rain_bed",
+   "dur": 6.875,
+   "gain": -20
+  },
+  {
+   "t": 3.75,
+   "kind": "whoosh_low",
+   "gain": -14
+  },
+  {
+   "t": 5.0,
+   "kind": "trailer_boom",
+   "gain": -10
+  },
+  {
+   "t": 5.0,
+   "kind": "ult_cutin",
+   "gain": -8
+  },
+  {
+   "t": 7.5,
+   "kind": "title_hit",
+   "gain": -9
+  },
+  {
+   "t": 11.25,
+   "kind": "whip",
+   "gain": -14
+  },
+  {
+   "t": 13.75,
+   "kind": "whip",
+   "gain": -14
+  },
+  {
+   "t": 16.25,
+   "kind": "whip",
+   "gain": -14
+  },
+  {
+   "t": 23.125,
+   "kind": "ui_click",
+   "gain": -12
+  },
+  {
+   "t": 26.25,
+   "kind": "card_flip",
+   "gain": -12
+  },
+  {
+   "t": 27.5,
+   "kind": "impact_light",
+   "gain": -12
+  },
+  {
+   "t": 30.0,
+   "kind": "impact_light",
+   "gain": -13
+  },
+  {
+   "t": 31.25,
+   "kind": "impact_light",
+   "gain": -13
+  },
+  {
+   "t": 33.75,
+   "kind": "ui_click",
+   "gain": -10
+  },
+  {
+   "t": 35.0,
+   "kind": "impact_heavy",
+   "gain": -7
+  },
+  {
+   "t": 37.5,
+   "kind": "victory_sparkle",
+   "gain": -10
+  },
+  {
+   "t": 40.0,
+   "kind": "loot_reveal",
+   "gain": -8
+  },
+  {
+   "t": 43.75,
+   "kind": "ui_confirm",
+   "gain": -12
+  },
+  {
+   "t": 48.75,
+   "kind": "forge_clang",
+   "gain": -10
+  },
+  {
+   "t": 55.0,
+   "kind": "soft_swell",
+   "gain": -12
+  },
+  {
+   "t": 62.5,
+   "kind": "seal_chime",
+   "gain": -9
+  },
+  {
+   "t": 67.5,
+   "kind": "coin",
+   "gain": -12
+  },
+  {
+   "t": 72.5,
+   "kind": "tx_confirm",
+   "gain": -11
+  },
+  {
+   "t": 75.0,
+   "kind": "trailer_boom",
+   "gain": -11
+  },
+  {
+   "t": 77.5,
+   "kind": "trailer_boom",
+   "gain": -12
+  },
+  {
+   "t": 80.0,
+   "kind": "trailer_boom",
+   "gain": -11
+  },
+  {
+   "t": 82.5,
+   "kind": "impact_heavy",
+   "gain": -9
+  },
+  {
+   "t": 83.75,
+   "kind": "impact_light",
+   "gain": -9
+  },
+  {
+   "t": 85.0,
+   "kind": "impact_heavy",
+   "gain": -9
+  },
+  {
+   "t": 86.25,
+   "kind": "impact_light",
+   "gain": -9
+  },
+  {
+   "t": 87.5,
+   "kind": "impact_heavy",
+   "gain": -9
+  },
+  {
+   "t": 88.75,
+   "kind": "impact_light",
+   "gain": -9
+  },
+  {
+   "t": 90.0,
+   "kind": "impact_heavy",
+   "gain": -9
+  },
+  {
+   "t": 91.25,
+   "kind": "impact_light",
+   "gain": -9
+  },
+  {
+   "t": 92.5,
+   "kind": "riser",
+   "dur": 5.0,
+   "gain": -4
+  },
+  {
+   "t": 99.375,
+   "kind": "reverse_swell",
+   "dur": 0.625,
+   "gain": -8
+  },
+  {
+   "t": 100.0,
+   "kind": "trailer_boom",
+   "gain": -7
+  },
+  {
+   "t": 100.0,
+   "kind": "impact_heavy",
+   "gain": -5
+  },
+  {
+   "t": 103.75,
+   "kind": "victory_sparkle",
+   "gain": -9
+  },
+  {
+   "t": 110.0,
+   "kind": "title_hit_soft",
+   "gain": -8
+  }
+ ]
+}

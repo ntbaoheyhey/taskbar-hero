@@ -1,0 +1,90 @@
+{
+ "url": "/?demo=1&squad=1&cardrpg2=1&a6=1&dev=1",
+ "storage": {
+  "lantern.coach.v3": "{\"disabled\":true}",
+  "lantern.entered.v3": "1",
+  "lantern-story-seen": "[\"opening\",\"ch1-intro\",\"ch1-boss\",\"ch1-clear\",\"ch2-intro\",\"ch2-boss\",\"ch2-clear\",\"ch3-intro\",\"ch3-boss\",\"ending\"]"
+ },
+ "shots": [
+  {
+   "id": "p_ult",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "eval": "(async()=>{const m=window.__depthReview;m.state.tutorial=4;m.state.cleared=[1,2];m.start(1);await new Promise(r=>setTimeout(r,300));m.state.run.visited=[];m.enter('0-0');await new Promise(r=>setTimeout(r,800));const b=m.battle;for(const a of (b.actors||[]))if(a.side==='party')a.charge=100;for(const a of (b.initial?.actors||[]))if(a.side==='party')a.charge=100;})()"
+    },
+    {
+     "click": "Fight",
+     "nth": 0
+    },
+    {
+     "waitFor": "window.__depthReview.sceneReady===true"
+    }
+   ],
+   "settle": 200,
+   "seconds": 6,
+   "during": [
+    {
+     "at": 0.4,
+     "click": "Mochi ultimate",
+     "exact": false
+    }
+   ]
+  },
+  {
+   "id": "p_win",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "eval": "(async()=>{const m=window.__depthReview;m.state.tutorial=4;m.state.cleared=[1,2];m.start(1);await new Promise(r=>setTimeout(r,300));m.state.run.visited=[];m.enter('0-0');await new Promise(r=>setTimeout(r,800));})()"
+    },
+    {
+     "click": "Fight",
+     "nth": 0
+    },
+    {
+     "waitFor": "window.__depthReview.sceneReady===true"
+    }
+   ],
+   "settle": 200,
+   "seconds": 4,
+   "during": [
+    {
+     "at": 0.1,
+     "click": "Skip to result"
+    }
+   ]
+  },
+  {
+   "id": "p_boss3",
+   "prep": [
+    {
+     "waitFor": "!!window.__depthReview"
+    },
+    {
+     "eval": "(async()=>{const m=window.__depthReview;m.state.tutorial=4;m.state.cleared=[1,2];m.start(3);await new Promise(r=>setTimeout(r,300));m.state.run.visited=[\"0-0\", \"1-0\", \"2-0\", \"3-0\", \"4-0\", \"5-0\"];m.enter('6-0');await new Promise(r=>setTimeout(r,800));const b=m.battle;for(const a of (b.actors||[]))if(a.side==='party')a.charge=100;for(const a of (b.initial?.actors||[]))if(a.side==='party')a.charge=100;})()"
+    },
+    {
+     "click": "Fight",
+     "nth": 0
+    },
+    {
+     "waitFor": "window.__depthReview.sceneReady===true"
+    }
+   ],
+   "settle": 200,
+   "seconds": 6,
+   "during": [
+    {
+     "at": 0.4,
+     "click": "Soot ultimate",
+     "exact": false
+    }
+   ]
+  }
+ ]
+}
